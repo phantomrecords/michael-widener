@@ -1,15 +1,11 @@
-# michael-widener.com
+# michael-widener.com – Graphic Design & Multimedia Portfolio
 
-This repository serves as the origin, archive, and digital authorship record for [https://michael-widener.com](https://michael-widener.com), the official digital property of **Michael Thomas Widener, II**.
+This is the GitHub Pages mirror of [michaelwidener.com](https://michaelwidener.com), the professional design portfolio of **Michael Thomas Widener, II**.
 
-This is a proprietary space used for tracking, timestamping, and asserting the author's ownership of his work.
+This site showcases original graphic design, CSS animation, interface prototyping, and multimedia artwork. It is intended as both a live showcase and a timestamped record of authorship and creative ownership.
 
-All content is protected. This is not an open source project.
-
-For more information, see:
-- `LICENSE.txt`
-- `NOTICE.md`
-- `STOLEN.md`
+## 🔒 This content is proprietary. No reuse is authorized.
+See `LICENSE.md` for full copyright terms.
 
 ---
 

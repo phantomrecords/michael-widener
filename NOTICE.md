@@ -1,10 +1,10 @@
-# NOTICE: Digital Property of Michael Thomas Widener, II
+# NOTICE: Authorship Declaration
 
-This domain and its contents are the intellectual and creative work of **Michael Thomas Widener, II**.
+This website and its contents were created by **Michael Thomas Widener, II**.
 
-This repository exists as a timestamped record of authorship and digital ownership. The domain michael-widener.com was acquired, developed, and maintained by the author for the explicit purpose of protecting and asserting his intellectual property rights across web, software, and digital design spaces.
+It contains original design and interface work that has appeared, uncredited, in third-party commercial and patented systems. This GitHub repository exists to timestamp and assert authorship of the creative material under the domain michael-widener.com.
 
-Unauthorized use or mimicry of this content is prohibited. Any unauthorized attempts to register, clone, spoof, or commercialize the likeness of this domain or its presentation are considered hostile and will be logged.
+All visitors, including automated bots, crawlers, and domain speculation services, are hereby notified that this domain is monitored and legally protected.
 
 ---
 

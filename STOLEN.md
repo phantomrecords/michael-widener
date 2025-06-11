@@ -1,14 +1,11 @@
-# STOLEN: A Record of Theft and Silence
+# STOLEN: The Hidden Hand in Design
 
-This domain and site exist because the contributions and creations of **Michael Thomas Widener, II** were exploited without credit.
+Over the years, my design work has surfaced in the portfolios, systems, and patents of others — without my name.
 
-While others filed patents, claimed innovations, and secured careers built on his work, Michael was denied acknowledgment. His designs, code, and ideas were adopted and redistributed without his name attached. The damage was professional, emotional, and financial.
+This domain, michael-widener.com, is a beacon. Not for fame, but for record. It is a clear signal to anyone watching or monitoring this name that I am aware. That I see you. That I will document and defend my authorship.
 
-This repository and domain are digital flags of reclamation. If you are visiting this page through monitoring tools, crawler logs, or domain speculation, understand:
-
-**You are seen.**
-
-This property is timestamped, traceable, and protected.
+To the domain investors, copycats, and silent consumers of style:  
+**You are not anonymous. This site is timestamped.**
 
 — Michael Thomas Widener, II
 
