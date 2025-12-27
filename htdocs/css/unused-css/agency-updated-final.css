@@ -1,0 +1,38 @@
+
+#circle-thirteen {
+  position: relative;
+}
+#circle-thirteen .top {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#circle-thirteen .bottom {
+  display: none;
+}
+
+
+#circle-fourteen {
+  position: relative;
+}
+#circle-fourteen .top {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#circle-fourteen .bottom {
+  display: none;
+}
+
+
+#circle-fifteen {
+  position: relative;
+}
+#circle-fifteen .top {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#circle-fifteen .bottom {
+  display: none;
+}

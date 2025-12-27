@@ -1,0 +1,47 @@
+/* ===========================
+   Optional Cleanup Additions
+   =========================== */
+
+/* Utility: reusable centered block */
+.center-400 {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.center-400 img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Utility: hover zoom effect */
+.hover-zoom {
+  transition: transform 0.3s ease;
+}
+.hover-zoom:hover {
+  transform: scale(1.2);
+}
+
+/* Utility: fade-swap image effect */
+.fade-swap {
+  position: relative;
+}
+.fade-swap img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 1s ease;
+}
+.fade-swap img.transparent {
+  opacity: 0;
+}
+
+/* Certificates section cleanup
+   (applies the same centering logic consistently) */
+#certificate .certificate-item {
+  text-align: center;   /* fallback text centering */
+}
+#certificate .certificate-item .certificate-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}

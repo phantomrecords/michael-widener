@@ -1,0 +1,29 @@
+##############################################
+# SECURITY HARDENING WITHOUT BASIC AUTH
+##############################################
+
+# Prevent directory listing
+Options -Indexes
+
+# Hide Apache / config control files
+<Files ".ht*">
+    Require all denied
+</Files>
+
+# Block direct access to sensitive config files
+<FilesMatch "(^config\\.php|config.php|.*\\.bak|.*~)">
+    Require all denied
+</FilesMatch>
+
+# Deny access to internal helper files
+<FilesMatch "(^private-|^internal-|^secure-)">
+    Require all denied
+</FilesMatch>
+
+# Use index.php as directory index
+DirectoryIndex index.php index.html
+
+# Disable caching of sensitive content
+Header set Cache-Control "no-store, no-cache, must-revalidate"
+Header set Pragma "no-cache"
+Header set Expires 0

@@ -1,0 +1,2134 @@
+.ProfileCard-module__profileCard___\+261M {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px;
+    padding: 8px var(--gds-button-paddingHorizontal)
+}
+
+.ProfileCard-module__gamePassIcon___9H4aj {
+    fill: var(--gds-contentSecondary);
+    height: 9px;
+    margin: 0;
+    width: 48px
+}
+
+body[data-media-type=tv] .ProfileCard-module__gamePassIcon___9H4aj {
+    height: 12px;
+    width: 64px
+}
+
+.ProfileCard-module__profileContent___20fT\+ {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 8px
+}
+
+body[data-media-type=tv] .ProfileCard-module__profileContent___20fT\+ {
+    margin-left: 16px
+}
+
+.ProfileCard-module__gamerTagAndIcon___znGCq {
+    align-items: center;
+    display: flex;
+    flex-direction: row
+}
+
+.ProfileCard-module__gamerTag___pU1Mf {
+    color: var(--gds-contentPrimary);
+    font-family: var(--gds-fontramp-title3-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-title3-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-title3-lineHeight)
+}
+
+.ProfileCard-module__gamerTagAddOn___cnCyU {
+    margin-right: 8px
+}
+
+.ProfileCard-module__presence___Mao1S {
+    color: var(--gds-contentSecondary);
+    font-family: var(--gds-fontramp-subtitle3-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-subtitle3-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-subtitle3-lineHeight)
+}
+
+.ProfileCard-module__gamerPic___o1uYP {
+    height: 64px;
+    width: 64px
+}
+
+body[data-media-type=tv] .ProfileCard-module__gamerPic___o1uYP {
+    height: 96px;
+    width: 96px
+}
+
+.ProfileCard-module__gamerPicButton___bobq8 {
+    z-index: 0
+}
+
+.ProfileCard-module__gamerPicButton___bobq8:not([disabled]):focus .ProfileCard-module__editGamerPicIconContainer___FNPZ2 {
+    box-shadow: 0 0 2px 2px
+}
+
+body[data-media-type=tv] .ProfileCard-module__gamerPicButton___bobq8:not([disabled]):focus .ProfileCard-module__editGamerPicIconContainer___FNPZ2 {
+    box-shadow: 0 0 3px 4px
+}
+
+.ProfileCard-module__editGamerPicIconContainer___FNPZ2.ProfileCard-module__editGamerPicIconContainer___FNPZ2.ProfileCard-module__editGamerPicIconContainer___FNPZ2.ProfileCard-module__editGamerPicIconContainer___FNPZ2 {
+    height: 40%;
+    right: -4%;
+    top: -4%;
+    width: 40%
+}
+
+.ProfileCard-module__editGamerPicIcon___FQ\+tP {
+    height: 55%;
+    transform: translate(-2px,-2px);
+    width: 55%
+}
+
+body[data-media-type=tv] .ProfileCard-module__editGamerPicIcon___FQ\+tP {
+    height: 50%;
+    transform: translate(2px,2px);
+    width: 50%
+}
+
+.EditableGamerPicButton-module__gamerPicButtonLabel___JgoRi {
+    display: none;
+    font-family: var(--gds-fontramp-subtitle2-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-subtitle2-fontSize);
+    font-weight: unset;
+    left: 50%;
+    line-height: var(--gds-fontramp-subtitle2-lineHeight);
+    line-height: unset;
+    overflow: hidden;
+    position: absolute;
+    text-overflow: ellipsis;
+    transform: translate(-50%,-180%);
+    white-space: nowrap
+}
+
+body[data-media-type=tv] .EditableGamerPicButton-module__gamerPicButtonLabel___JgoRi {
+    font-family: var(--gds-fontramp-title2-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-title2-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-title2-lineHeight)
+}
+
+.EditableGamerPicButton-module__gamerPicButton___FtL3r:not([disabled]):focus:after {
+    border-color: var(--gds-focus-borderColor);
+    border-radius: 50%;
+    box-shadow: 0 0 10px!important;
+    z-index: -1
+}
+
+@media(forced-colors:active) {
+    .EditableGamerPicButton-module__gamerPicButton___FtL3r:not([disabled]):focus:after {
+        border-color: SelectedItem;
+        border-radius: var(--gds-focus-borderRadius);
+        z-index: unset
+    }
+}
+
+.EditableGamerPicButton-module__gamerPicButton___FtL3r:not([disabled]):focus .EditableGamerPicButton-module__gamerPicButtonLabel___JgoRi,.EditableGamerPicButton-module__gamerPicButton___FtL3r:not([disabled]):hover .EditableGamerPicButton-module__gamerPicButtonLabel___JgoRi {
+    display: block
+}
+
+.EditableGamerPicButton-module__gamerPicButton___FtL3r:not([disabled]):focus .EditableGamerPicButton-module__gamerPicButtonOverlay___9KmPJ,.EditableGamerPicButton-module__gamerPicButton___FtL3r:not([disabled]):hover .EditableGamerPicButton-module__gamerPicButtonOverlay___9KmPJ {
+    background: linear-gradient(transparent 30%,#000)
+}
+
+.EditableGamerPicButton-module__gamerPicButton___FtL3r:not([disabled]):focus .EditableGamerPicButton-module__editIconContainer___V6YUi {
+    box-shadow: 0 0 3px 3px
+}
+
+body[data-media-type=tv] .EditableGamerPicButton-module__gamerPicButton___FtL3r:not([disabled]):focus .EditableGamerPicButton-module__editIconContainer___V6YUi {
+    box-shadow: 0 0 4px 5px
+}
+
+.EditableGamerPic-module__editableGamerPicContainer___COCYE {
+    position: relative
+}
+
+.EditableGamerPicContent-module__editIconContainer___zSAud {
+    background-color: var(--gds-backplateSolidPrimaryRest);
+    border-radius: 50%;
+    position: absolute;
+    right: 1%;
+    top: 3%
+}
+
+@media (min-width: 1024px) and (min-height:calc(480px + 1px)) {
+    .EditableGamerPicContent-module__editIconContainer___zSAud {
+        right:2%
+    }
+}
+
+@media (min-width: 1366px) and (min-height:calc(480px + 1px)) {
+    .EditableGamerPicContent-module__editIconContainer___zSAud {
+        right:5%;
+        top: 5%
+    }
+}
+
+.XgpuUpsellSection-module__upsellButtons___rYjCV {
+    display: flex;
+    flex-direction: column
+}
+
+@media (min-width: 1024px) and (min-height:calc(480px + 1px)) {
+    .XgpuUpsellSection-module__upsellButtons___rYjCV {
+        flex-direction:row
+    }
+
+    .XgpuUpsellSection-module__upsellButton___GhX8H {
+        flex: 1 1
+    }
+
+    .XgpuUpsellSection-module__upsellButton___GhX8H:first-child {
+        margin-right: 16px
+    }
+}
+
+.XgpuUpsellSection-module__redeemIcon___qDnwO {
+    display: none;
+    margin: unset;
+    margin-left: 12px
+}
+
+body[data-media-type=tv] .XgpuUpsellSection-module__redeemIcon___qDnwO {
+    display: unset
+}
+
+.defaults-module__button___dULFV,.defaults-module__textButton___9rf4P {
+    flex-shrink: 0;
+    margin-bottom: 12px
+}
+
+body[data-media-type=tv] .defaults-module__button___dULFV,body[data-media-type=tv] .defaults-module__textButton___9rf4P {
+    margin-bottom: 16px
+}
+
+.defaults-module__textButton___9rf4P {
+    justify-content: flex-start
+}
+
+.defaults-module__description___bp8BX {
+    color: var(--gds-contentSecondary);
+    font-family: var(--gds-fontramp-subtitle3-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-subtitle3-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-subtitle3-lineHeight)
+}
+
+.defaults-module__container___ruVXP {
+    margin-bottom: 16px;
+    padding-left: var(--gds-button-paddingHorizontal)
+}
+
+.defaults-module__buttonWithTags___jPULO {
+    display: flex;
+    flex-direction: column
+}
+
+.ChangeGamerTagButton-module__description___t75yz {
+    font-family: var(--gds-fontramp-subtitle3-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-subtitle3-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-subtitle3-lineHeight)
+}
+
+body[data-theme=light] .ChangeGamerTagButton-module__description___t75yz {
+    color: var(--gds-contentSecondary)
+}
+
+body[data-theme=dark] .ChangeGamerTagButton-module__description___t75yz {
+    color: var(--gds-contentSecondary)
+}
+
+.ChooseYourGamertagScreen-module__container___gn1gm {
+    display: flex;
+    flex-direction: column;
+    gap: 16px
+}
+
+body[data-media-type=tv] .ChooseYourGamertagScreen-module__container___gn1gm {
+    padding: 64px
+}
+
+.ChooseYourGamertagScreen-module__title___m3kdj {
+    color: var(--gds-contentPrimary);
+    font-family: var(--gds-fontramp-title2-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-title2-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-title2-lineHeight)
+}
+
+@media (min-width: 480px) and (min-height:calc(480px + 1px)) {
+    .ChooseYourGamertagScreen-module__title___m3kdj {
+        font-family:var(--gds-fontramp-title1-fontFamily),Arial,Helvetica,sans-serif;
+        font-size: var(--gds-fontramp-title1-fontSize);
+        font-weight: unset;
+        line-height: var(--gds-fontramp-title1-lineHeight)
+    }
+}
+
+.ChooseYourGamertagScreen-module__description___\+30pM {
+    color: var(--gds-contentPrimary);
+    font-family: var(--gds-fontramp-body-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-body-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-body-lineHeight)
+}
+
+.ChooseYourGamertagScreen-module__listItem___8aYWf {
+    background: #25282c;
+    border: 1px solid rgba(26,27,30,0);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    min-height: 40px;
+    padding: 8px 16px
+}
+
+.ChooseYourGamertagScreen-module__subtitle1___gyoYH {
+    color: var(--gds-contentPrimary)
+}
+
+.ChooseYourGamertagScreen-module__subtitle1___gyoYH,.ChooseYourGamertagScreen-module__subtitle2___IZkFE {
+    font-family: var(--gds-fontramp-body-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-body-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-body-lineHeight)
+}
+
+.ChooseYourGamertagScreen-module__subtitle2___IZkFE {
+    color: var(--gds-contentSecondary)
+}
+
+.ChooseYourGamertagScreen-module__custom___9HV\+3 {
+    color: var(--gds-contentPrimary);
+    font-family: var(--gds-fontramp-body-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-body-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-body-lineHeight);
+    padding-bottom: 4px
+}
+
+.ChooseYourGamertagScreen-module__input___9kLPf {
+    background: #25282c;
+    border: 1px solid #6b7584;
+    border-radius: 8px;
+    color: var(--gds-contentPrimary);
+    display: flex;
+    gap: 4px;
+    width: 100%
+}
+
+.ChooseYourGamertagScreen-module__iconError___9METd {
+    color: var(--gds-activityError)
+}
+
+.ChooseYourGamertagScreen-module__helperText___9gNfA {
+    color: hsla(0,0%,100%,.65);
+    flex: 1 0;
+    font-size: 12px
+}
+
+body[data-media-type=tv] .ChooseYourGamertagScreen-module__helperText___9gNfA {
+    font-size: 20px
+}
+
+.ChooseYourGamertagScreen-module__helperTextCenter___--4xU {
+    color: hsla(0,0%,100%,.65);
+    display: flex;
+    font-size: 12px;
+    justify-content: center
+}
+
+body[data-media-type=tv] .ChooseYourGamertagScreen-module__helperTextCenter___--4xU {
+    font-size: 20px
+}
+
+.ChooseYourGamertagScreen-module__helplerTextError___pDz9N {
+    align-items: center;
+    color: var(--gds-contentSecondary);
+    display: flex;
+    flex-direction: row
+}
+
+.ChooseYourGamertagScreen-module__bottomScreenContainer___yERkN {
+    bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding-right: 16px;
+    position: absolute;
+    width: min(91%,400px)
+}
+
+@media (min-width: 568px) and (max-height:480px) {
+    .ChooseYourGamertagScreen-module__bottomScreenContainer___yERkN {
+        padding-right:unset;
+        position: unset;
+        width: unset
+    }
+}
+
+@media (min-width: 480px) and (min-height:calc(480px + 1px)) {
+    .ChooseYourGamertagScreen-module__bottomScreenContainer___yERkN {
+        align-self:stretch;
+        gap: 16px;
+        padding-right: unset;
+        position: unset;
+        width: unset
+    }
+}
+
+body[data-media-type=tv] .ChooseYourGamertagScreen-module__bottomScreenContainer___yERkN {
+    bottom: 50px;
+    position: absolute;
+    width: 844px
+}
+
+.ChooseYourGamertagScreen-module__buttonContainer___4oJKW {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    gap: 16px
+}
+
+body[data-media-type=tv] .ChooseYourGamertagScreen-module__buttonContainer___4oJKW {
+    gap: 32px
+}
+
+.ChooseYourGamertagScreen-module__primaryButton___WjdQL {
+    align-items: center;
+    border-radius: 8px;
+    display: flex;
+    flex: 1 0;
+    justify-content: center;
+    min-height: 40px;
+    min-width: 90px
+}
+
+body[data-media-type=tv] .ChooseYourGamertagScreen-module__primaryButton___WjdQL {
+    align-items: center;
+    display: flex;
+    flex: 1 0;
+    gap: 8px;
+    height: 96px;
+    justify-content: center;
+    min-width: 240px;
+    padding: 31px 24px 33px
+}
+
+.ChooseYourGamertagScreen-module__secondaryButton___cVOiG {
+    align-items: center;
+    border-radius: 8px;
+    display: flex;
+    flex: 1 0;
+    justify-content: center;
+    min-height: 40px;
+    min-width: 96px
+}
+
+body[data-media-type=tv] .ChooseYourGamertagScreen-module__secondaryButton___cVOiG {
+    align-items: center;
+    display: flex;
+    flex: 1 0;
+    gap: 8px;
+    height: 96px;
+    justify-content: center;
+    min-width: 240px;
+    padding: 31px 24px 33px
+}
+
+.NavigationHeader-module__container___dMOk4 {
+    display: flex;
+    justify-content: space-between
+}
+
+.NavigationHeader-module__closeButton___x\+2yl:only-child {
+    margin-left: auto
+}
+
+.SignOutButton-module__divider___0BXHt {
+    margin: 12px 8px
+}
+
+@media (min-width: 768px) and (min-height:calc(480px + 1px)) {
+    .SignOutButton-module__divider___0BXHt {
+        margin:12px 16px
+    }
+}
+
+.SafetyAndPrivacyTab-module__cpraImage___Hb\+V9 {
+    height: 30px;
+    margin-right: 12px
+}
+
+.SafetyAndPrivacyTab-module__imageButton___ECadG {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start
+}
+
+.SafetyAndPrivacyTab-module__divider___yRjTY {
+    margin-bottom: 12px
+}
+
+body[data-media-type=tv] .SafetyAndPrivacyTab-module__divider___yRjTY {
+    margin-bottom: 16px
+}
+
+.SafetyAndPrivacyTab-module__statusOption___DXZcA {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px
+}
+
+.SafetyAndPrivacyTab-module__userPresenceDropdownButton___8xYOJ {
+    margin-bottom: 10px;
+    margin-right: 0;
+    text-align: center;
+    width: 100%
+}
+
+body[data-media-type=tv] .SafetyAndPrivacyTab-module__userPresenceDropdownContainer___LwmYw {
+    min-width: 200px
+}
+
+body[data-media-type=tv] .UserPresenceDropdown-module__button___JvyUo {
+    flex-shrink: 0
+}
+
+.UserPresenceDropdown-module__icon___yavmP {
+    height: 12px;
+    width: 12px
+}
+
+.UserPresenceDropdown-module__middle___zA-Qv {
+    flex-grow: 1;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: left
+}
+
+.UserPresenceDropdown-module__offlineGrayBackground___X9tdi {
+    background-color: var(--gds-activityOffline)
+}
+
+.UserPresenceDropdown-module__onlineGreenBackground___9BrU4 {
+    background-color: var(--gds-activityOnline)
+}
+
+.UserPresenceDropdown-module__presenceStateDropdown___mKP\+Q {
+    margin-bottom: 8px;
+    margin-top: 8px;
+    width: calc(100% - 2px)
+}
+
+.UserPresenceDropdown-module__smallCircleMarker___xBBE0 {
+    border-radius: 50%;
+    height: 16px;
+    width: 16px
+}
+
+.ChangeNameSharingSettingsButton-module__caption___TL66A {
+    font-family: var(--gds-fontramp-subtitle3-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-subtitle3-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-subtitle3-lineHeight)
+}
+
+body[data-theme=light] .ChangeNameSharingSettingsButton-module__caption___TL66A {
+    color: var(--gds-contentSecondary)
+}
+
+body[data-theme=dark] .ChangeNameSharingSettingsButton-module__caption___TL66A {
+    color: var(--gds-contentSecondary)
+}
+
+.ChangeNameSharingSettingsButton-module__content___d9YLJ {
+    flex-grow: 1
+}
+
+.ChangeNameSharingSettingsButton-module__link___OReEn {
+    height: auto;
+    padding-bottom: 8px;
+    padding-top: 8px
+}
+
+body[data-media-type=tv] .ChangeNameSharingSettingsButton-module__link___OReEn {
+    padding-bottom: 16px;
+    padding-top: 16px
+}
+
+.ChangeNameSharingSettingsButton-module__title___88tgZ {
+    font-family: var(--gds-fontramp-subtitle3-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-subtitle3-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-subtitle3-lineHeight);
+    margin-bottom: 4px
+}
+
+body[data-theme=light] .ChangeNameSharingSettingsButton-module__title___88tgZ {
+    color: var(--gds-contentPrimary)
+}
+
+body[data-theme=dark] .ChangeNameSharingSettingsButton-module__title___88tgZ {
+    color: var(--gds-contentPrimary)
+}
+
+.PrivacyConsentToggle-module__button___bWIYa {
+    margin-bottom: 12px
+}
+
+.PrivacyConsentToggle-module__skeletonCard___2MiAS {
+    flex-shrink: 0;
+    margin-bottom: 12px;
+    padding-left: 8px;
+    padding-right: 8px
+}
+
+body[data-media-type=tv] .PrivacyConsentToggle-module__skeletonCard___2MiAS {
+    margin-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px
+}
+
+.PrivacyConsentToggle-module__skeletonHeight___Q7zu4 {
+    height: 160px
+}
+
+body[data-media-type=tv] .PrivacyConsentToggle-module__skeletonHeight___Q7zu4 {
+    height: 64px
+}
+
+.PrivacyConsentToggle-module__description___umlDZ {
+    color: var(--gds-contentSecondary);
+    font-family: var(--gds-fontramp-subtitle3-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-subtitle3-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-subtitle3-lineHeight);
+    margin-bottom: 8px;
+    padding-left: var(--gds-button-paddingHorizontal)
+}
+
+.PrivacyConsentToggle-module__button___bWIYa {
+    flex-shrink: 0;
+    margin-bottom: 8px
+}
+
+body[data-media-type=tv] .PrivacyConsentToggle-module__button___bWIYa {
+    margin-bottom: 16px
+}
+
+.PrivacyConsentToggle-module__section___YLqq3 {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.PrivacyConsentToggle-module__sectionItemsContainer___8OPJW {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.SwitchButtonWithLoading-module__button___1vGcy {
+    flex-shrink: 0;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    width: 100%
+}
+
+body[data-media-type=tv] .SwitchButtonWithLoading-module__button___1vGcy {
+    margin-bottom: 16px
+}
+
+.SwitchButtonWithLoading-module__switchSkeleton___YaKLt {
+    border-radius: var(--gds-switch-borderRadius);
+    height: var(--gds-switch-height);
+    width: var(--gds-switch-width)
+}
+
+.SwitchButtonWithLoading-module__switchSkeleton___YaKLt:after {
+    border-radius: var(--gds-switch-borderRadius)
+}
+
+body[data-theme=hc-white] .SwitchButtonWithLoading-module__buttonSwitch___v\+Sba {
+    border: 1px solid
+}
+
+body[data-theme=hc-black] .SwitchButtonWithLoading-module__buttonSwitch___v\+Sba {
+    border: 1px solid
+}
+
+body[data-theme=hc-aquatic] .SwitchButtonWithLoading-module__buttonSwitch___v\+Sba {
+    border: 1px solid
+}
+
+body[data-theme=hc-desert] .SwitchButtonWithLoading-module__buttonSwitch___v\+Sba {
+    border: 1px solid
+}
+
+.SwitchButtonWithLoading-module__switchTextContainer___GsNp2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%
+}
+
+.SwitchButtonWithLoading-module__toggleContainer___jOjm- {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-family: var(--gds-fontramp-body-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-body-fontSize);
+    font-weight: unset;
+    gap: 10px;
+    line-height: var(--gds-fontramp-body-lineHeight)
+}
+
+.NotificationTabContent-module__container___7igz9 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px
+}
+
+.Section-module__section___r9TdL {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.Section-module__header___5Cpaf {
+    color: var(--gds-contentSecondary);
+    font-family: var(--gds-fontramp-title4-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-title4-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-title4-lineHeight);
+    text-transform: uppercase
+}
+
+.Section-module__itemsContainer___ziphJ {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 16px
+}
+
+.LanguagesTabContent-module__container___XA295 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px
+}
+
+.LanguagesTabContent-module__currentLanguage___WBaRo {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    width: 100%
+}
+
+.LanguagesTabContent-module__language___iVKT\+ {
+    font-family: var(--gds-fontramp-subtitle2-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-subtitle2-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-subtitle2-lineHeight)
+}
+
+body[data-media-type=tv] .LanguagesTabContent-module__language___iVKT\+ {
+    padding: 16px
+}
+
+.AudioAndVideoTabContent-module__container___uDsgy {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    position: relative
+}
+
+.AudioDeviceSelection-module__container___TwYef {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 8px
+}
+
+@media(any-hover: hover) {
+    .AudioDeviceSelection-module__container___TwYef:not([disabled]):hover .AudioDeviceSelection-module__permissionsCallout___mGOwd {
+        visibility:visible
+    }
+}
+
+.AudioDeviceSelection-module__permissionsCallout___mGOwd {
+    visibility: hidden
+}
+
+.EnableMicAccessButton-module__button___XW5pF {
+    flex-direction: row;
+    gap: 4px;
+    padding: 10px 8px;
+    width: 100%
+}
+
+.EnableMicAccessButton-module__micIcon___LXpUo {
+    height: 24px;
+    position: relative;
+    width: 22px
+}
+
+.EnableMicAccessButton-module__warningIcon___9rC0L {
+    fill: var(--gds-activityWarning);
+    bottom: 0;
+    height: 16px;
+    left: 12px;
+    position: absolute;
+    width: 14px
+}
+
+.EnableMicAccessButton-module__layeredIcon___woNct {
+    position: relative
+}
+
+.BaseErrorCallout-module__callout___4Yc8u {
+    align-self: center;
+    position: absolute;
+    top: 0;
+    z-index: 1
+}
+
+.BaseErrorCallout-module__icon___oyxbz {
+    color: var(--gds-activityWarning)
+}
+
+.BaseErrorCallout-module__calloutNotch___859St {
+    margin: 0 auto auto
+}
+
+@media (min-width: 568px) and (max-height:480px) {
+    .BaseErrorCallout-module__calloutNotch___859St {
+        margin:0 0 0 auto;
+        right: 216px
+    }
+}
+
+.BaseErrorCallout-module__calloutStripe___44t-b {
+    border-left-color: var(--gds-activityWarning);
+    gap: 8px;
+    padding: 8px
+}
+
+.BaseErrorCallout-module__calloutText___ZGSWL {
+    font-family: var(--gds-fontramp-caption-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-caption-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-caption-lineHeight)
+}
+
+.Callout-module__container___6JBNp {
+    display: flex
+}
+
+.Callout-module__containerTop___mQ7ZF {
+    flex-direction: column
+}
+
+.Callout-module__containerBottom___h8hd4 {
+    flex-direction: column-reverse
+}
+
+.Callout-module__backingplate___gvVWS {
+    align-items: center;
+    background-color: var(--gds-backplateSolidPrimaryRest);
+    border-left: 8px solid var(--gds-backplateSolidSecondaryRest);
+    border-radius: 4px;
+    color: var(--gds-contentPrimary);
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 10px 16px 10px 12px
+}
+
+body[data-theme=hc-white] .Callout-module__backingplate___gvVWS {
+    outline: 2px solid var(--gds-contentPrimary)
+}
+
+body[data-theme=hc-black] .Callout-module__backingplate___gvVWS {
+    outline: 2px solid var(--gds-contentPrimary)
+}
+
+body[data-theme=hc-aquatic] .Callout-module__backingplate___gvVWS {
+    outline: 2px solid var(--gds-contentPrimary)
+}
+
+body[data-theme=hc-desert] .Callout-module__backingplate___gvVWS {
+    outline: 2px solid var(--gds-contentPrimary)
+}
+
+.Callout-module__notch___xlZ\+D {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    height: 0;
+    margin: auto;
+    position: relative;
+    width: 0
+}
+
+.Callout-module__notchTop___mb4aX {
+    border-bottom: 8px solid var(--gds-backplateSolidPrimaryRest);
+    margin-bottom: 0
+}
+
+body[data-theme=hc-white] .Callout-module__notchTop___mb4aX {
+    border-bottom: 8px solid var(--gds-contentPrimary)
+}
+
+body[data-theme=hc-black] .Callout-module__notchTop___mb4aX {
+    border-bottom: 8px solid var(--gds-contentPrimary)
+}
+
+body[data-theme=hc-aquatic] .Callout-module__notchTop___mb4aX {
+    border-bottom: 8px solid var(--gds-contentPrimary)
+}
+
+body[data-theme=hc-desert] .Callout-module__notchTop___mb4aX {
+    border-bottom: 8px solid var(--gds-contentPrimary)
+}
+
+.Callout-module__notchBottom___u5Nbw {
+    border-top: 8px solid var(--gds-backplateSolidPrimaryRest);
+    margin-top: 0
+}
+
+body[data-theme=hc-white] .Callout-module__notchBottom___u5Nbw {
+    border-top: 8px solid var(--gds-contentPrimary)
+}
+
+body[data-theme=hc-black] .Callout-module__notchBottom___u5Nbw {
+    border-top: 8px solid var(--gds-contentPrimary)
+}
+
+body[data-theme=hc-aquatic] .Callout-module__notchBottom___u5Nbw {
+    border-top: 8px solid var(--gds-contentPrimary)
+}
+
+body[data-theme=hc-desert] .Callout-module__notchBottom___u5Nbw {
+    border-top: 8px solid var(--gds-contentPrimary)
+}
+
+.Callout-module__text___9pi7J {
+    font-family: var(--gds-fontramp-subtitle2-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-subtitle2-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-subtitle2-lineHeight);
+    text-align: start
+}
+
+body[data-media-type=tv] .Callout-module__text___9pi7J {
+    line-height: 32px
+}
+
+.AudioDeviceErrorCallout-module__enter___0MB5b {
+    opacity: 0
+}
+
+.AudioDeviceErrorCallout-module__enterActive___-bR-N,.AudioDeviceErrorCallout-module__exit___lhBV\+ {
+    opacity: 1
+}
+
+.AudioDeviceErrorCallout-module__exitActive___tzuBE {
+    opacity: 0
+}
+
+.AudioDeviceErrorCallout-module__enterActive___-bR-N,.AudioDeviceErrorCallout-module__exitActive___tzuBE {
+    transition: opacity 1s
+}
+
+.AudioDevicePicker-module__container___kzrPl {
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.AudioDevicePicker-module__label___QEtSz {
+    color: var(--gds-contentOnBackplateSolidTertiaryRest);
+    font-family: var(--gds-fontramp-subtitle2-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-subtitle2-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-subtitle2-lineHeight)
+}
+
+.AudioDevicePicker-module__button___QTR9Z {
+    width: 100%
+}
+
+.AudioDevicePicker-module__errorButton___kfPfK {
+    justify-content: flex-start;
+    padding: 10px 8px;
+    width: 100%
+}
+
+.AudioDevicePicker-module__pickerButton___vkyLg {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 10px 8px;
+    width: 100%
+}
+
+.AudioDevicePicker-module__dropdown___E2kEy {
+    padding: 16px
+}
+
+body[data-media-type=tv] .AudioDevicePicker-module__dropdown___E2kEy {
+    font-family: var(--gds-fontramp-subtitle2-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-subtitle2-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-subtitle2-lineHeight);
+    padding: 24px
+}
+
+.GameStreamVolume-module__icon___MIZNs {
+    fill: var(--gds-contentOnBackplateSolidTertiaryRest);
+    margin: 0
+}
+
+.GameVolumeSlider-module__sliderContainer___VV-nN {
+    border: 2px solid var(--gds-dividerOnBackplateSolidTertiaryRest);
+    padding: 8px
+}
+
+.PartyStreamVolume-module__icon___cY\+jk {
+    fill: var(--gds-contentOnBackplateSolidTertiaryRest);
+    margin: 0
+}
+
+.PartyStreamVolume-module__sliderContainer___DdC50 {
+    border: 2px solid var(--gds-dividerOnBackplateSolidTertiaryRest);
+    padding: 8px
+}
+
+.InputTabContent-module__container___FNqpL {
+    display: flex;
+    flex-direction: column;
+    gap: 32px
+}
+
+.GuideKeyboardShortcut-module__container___FaEz3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column
+}
+
+.GuideKeyboardShortcut-module__title___IRmh2 {
+    color: var(--gds-contentPrimary);
+    font-family: var(--gds-fontramp-action-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-action-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-action-lineHeight);
+    margin-top: 12px
+}
+
+.GuideKeyboardShortcut-module__description___W-8X7 {
+    color: var(--gds-contentSecondary);
+    font-family: var(--gds-fontramp-subtitle3-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-subtitle3-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-subtitle3-lineHeight);
+    margin-top: 10px
+}
+
+.GuideKeyboardShortcut-module__shortcut___hZuzE {
+    margin-top: 16px
+}
+
+.KeyboardShortcut-module__container___Y6b8b {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px
+}
+
+.KeyboardShortcut-module__inputWrapper___J9i7U.KeyboardShortcut-module__inputWrapper___J9i7U.KeyboardShortcut-module__inputWrapper___J9i7U {
+    box-shadow: none
+}
+
+.KeyboardShortcut-module__input___cOQGQ {
+    caret-color: transparent;
+    text-align: center
+}
+
+.KeyboardShortcut-module__description___MGva9 {
+    color: var(--gds-contentSecondary);
+    font-family: var(--gds-fontramp-subtitle3-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-subtitle3-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-subtitle3-lineHeight)
+}
+
+.ManageSavesMenu-module__container___rNB9l {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%
+}
+
+.ManageSavesMenu-module__headerContainer___XG1FM {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+
+.ManageSavesMenu-module__title___2NbQL {
+    font-family: var(--gds-fontramp-section2-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-section2-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-section2-lineHeight)
+}
+
+body[data-theme=light] .ManageSavesMenu-module__title___2NbQL {
+    color: var(--gds-contentPrimary)
+}
+
+body[data-theme=dark] .ManageSavesMenu-module__title___2NbQL {
+    color: var(--gds-contentPrimary)
+}
+
+.ManageSavesMenu-module__subtitle___xTTeC {
+    font-family: var(--gds-fontramp-subtitle2-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-subtitle2-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-subtitle2-lineHeight)
+}
+
+body[data-theme=light] .ManageSavesMenu-module__subtitle___xTTeC {
+    color: var(--gds-contentSecondary)
+}
+
+body[data-theme=dark] .ManageSavesMenu-module__subtitle___xTTeC {
+    color: var(--gds-contentSecondary)
+}
+
+@media (min-width: 768px) and (min-height:calc(480px + 1px)) {
+    .ManageSavesMenu-module__subtitle___xTTeC {
+        margin-top:8px
+    }
+}
+
+.ManageSavesMenu-module__listContainer___DVmsd {
+    margin-top: 24px;
+    width: 100%
+}
+
+@media (min-width: 568px) and (max-height:480px) {
+    .ManageSavesMenu-module__listContainer___DVmsd {
+        margin-top:16px
+    }
+}
+
+.ManageSavesMenu-module__list___IThfI li {
+    border-bottom: 1px solid var(--gds-dividerLight);
+    padding: 16px 0
+}
+
+.ManageSavesMenu-module__list___IThfI li:first-child {
+    padding-top: 0
+}
+
+.ManageSavesMenu-module__listItem___dBVxY {
+    list-style-type: none
+}
+
+.ManageSavesMenu-module__listItem___dBVxY button {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.ManageSavesMenu-module__disclaimer___G5Vpm {
+    font-family: var(--gds-fontramp-subtitle2-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-subtitle2-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-subtitle2-lineHeight);
+    padding: 32px 0
+}
+
+body[data-theme=light] .ManageSavesMenu-module__disclaimer___G5Vpm {
+    color: var(--gds-contentSecondary)
+}
+
+body[data-theme=dark] .ManageSavesMenu-module__disclaimer___G5Vpm {
+    color: var(--gds-contentSecondary)
+}
+
+.ManageSavesEmptyState-module__container___A4T8c,.ManageSavesEmptyState-module__imageContainer___ZCDtn {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%
+}
+
+.ManageSavesEmptyState-module__imageContainer___ZCDtn {
+    justify-content: center;
+    width: 282px
+}
+
+@media (min-width: 568px) and (max-height:480px) {
+    .ManageSavesEmptyState-module__imageContainer___ZCDtn {
+        align-items:center;
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        justify-content: left;
+        margin-top: 20px;
+        text-align: left;
+        width: 100%
+    }
+}
+
+body[data-media-type=tv] .ManageSavesEmptyState-module__imageContainer___ZCDtn {
+    width: 576px
+}
+
+.ManageSavesEmptyState-module__description___Z6g6W {
+    font-family: var(--gds-fontramp-title4-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-title4-fontSize);
+    font-weight: unset;
+    font-weight: 700;
+    line-height: var(--gds-fontramp-title4-lineHeight);
+    margin-top: 32px;
+    text-align: center
+}
+
+body[data-theme=light] .ManageSavesEmptyState-module__description___Z6g6W {
+    color: var(--gds-contentPrimary)
+}
+
+body[data-theme=dark] .ManageSavesEmptyState-module__description___Z6g6W {
+    color: var(--gds-contentPrimary)
+}
+
+@media (min-width: 568px) and (max-height:480px) {
+    .ManageSavesEmptyState-module__description___Z6g6W {
+        margin-left:32px;
+        margin-top: 0
+    }
+}
+
+.GameSaveRow-module__informationRow___RufSO {
+    display: flex;
+    height: 100%;
+    width: 100%
+}
+
+.GameSaveRow-module__gameArt___M9xQn {
+    border-radius: 2px;
+    height: 96px;
+    overflow: hidden;
+    width: 96px
+}
+
+@media (min-width: 568px) and (max-height:480px) {
+    .GameSaveRow-module__gameArt___M9xQn {
+        height:64px;
+        width: 64px
+    }
+}
+
+body[data-media-type=tv] .GameSaveRow-module__gameArt___M9xQn {
+    height: 128px;
+    width: 128px
+}
+
+.GameSaveRow-module__skeletonText___63jX\+ {
+    flex-grow: 1;
+    margin: 8px 0;
+    width: 100%
+}
+
+.GameSaveRow-module__textContainer___NdyIl {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    margin-left: 16px
+}
+
+.GameSaveRow-module__title___Q-vXx {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    font-family: var(--gds-fontramp-title3-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-title3-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-title3-lineHeight);
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.GameSaveRow-module__subtitle___DiHNn {
+    font-family: var(--gds-fontramp-subtitle2-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-subtitle2-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-subtitle2-lineHeight)
+}
+
+.ManageGameStorage-module__sectionTitle___5Yr-w {
+    border-bottom: 1px solid var(--gds-dividerLight);
+    color: var(--gds-contentSecondary);
+    font-family: var(--gds-fontramp-label-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-label-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-label-lineHeight);
+    margin: 16px 0;
+    padding: 16px 0;
+    text-transform: uppercase
+}
+
+.ManageGameStorage-module__list___YX5XM li {
+    padding-bottom: 16px
+}
+
+#gamepass-dialog-root .ManageGameStorage-module__learnMoreLink___HxyvH,#gamepass-modal-root .ManageGameStorage-module__learnMoreLink___HxyvH,#gamepass-root .ManageGameStorage-module__learnMoreLink___HxyvH {
+    color: var(--gds-contentHyperlinkRest);
+    font-family: var(--gds-fontramp-caption-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-caption-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-caption-lineHeight);
+    margin: 16px 0;
+    position: relative;
+    width: -moz-max-content;
+    width: max-content
+}
+
+#gamepass-dialog-root .ManageGameStorage-module__learnMoreLink___HxyvH:focus,#gamepass-modal-root .ManageGameStorage-module__learnMoreLink___HxyvH:focus,#gamepass-root .ManageGameStorage-module__learnMoreLink___HxyvH:focus {
+    outline: none
+}
+
+#gamepass-dialog-root .ManageGameStorage-module__learnMoreLink___HxyvH:after,#gamepass-modal-root .ManageGameStorage-module__learnMoreLink___HxyvH:after,#gamepass-root .ManageGameStorage-module__learnMoreLink___HxyvH:after {
+    border: var(--gds-focus-borderWidth) solid transparent;
+    border-radius: var(--gds-focus-borderRadius);
+    bottom: var(--gds-focus-margin);
+    content: "";
+    forced-color-adjust: none;
+    left: var(--gds-focus-margin);
+    margin: 0;
+    pointer-events: none;
+    position: absolute;
+    right: var(--gds-focus-margin);
+    top: var(--gds-focus-margin);
+    z-index: 0
+}
+
+@supports selector(:focus-visible) {
+    #gamepass-dialog-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):focus-visible:after,#gamepass-modal-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):focus-visible:after,#gamepass-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):focus-visible:after {
+        border-color: var(--gds-focus-borderColor);
+        box-shadow: var(--gds-focus-boxShadow)
+    }
+
+    html[data-active-input=gamepad] #gamepass-dialog-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):focus-visible:after,html[data-active-input=gamepad] #gamepass-modal-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):focus-visible:after,html[data-active-input=gamepad] #gamepass-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):focus-visible:after {
+        border-color: unset;
+        box-shadow: unset
+    }
+
+    html[data-active-input=gamepad] #gamepass-dialog-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):focus:after,html[data-active-input=gamepad] #gamepass-modal-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):focus:after,html[data-active-input=gamepad] #gamepass-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):focus:after {
+        border-color: var(--gds-focus-borderColor);
+        box-shadow: var(--gds-focus-boxShadow)
+    }
+
+    @media(forced-colors:active) {
+        html[data-active-input=gamepad] #gamepass-dialog-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):focus:after,html[data-active-input=gamepad] #gamepass-modal-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):focus:after,html[data-active-input=gamepad] #gamepass-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):focus:after {
+            border-color: SelectedItem
+        }
+    }
+
+    html[data-active-input=keyboard] #gamepass-dialog-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):focus-visible:after,html[data-active-input=keyboard] #gamepass-modal-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):focus-visible:after,html[data-active-input=keyboard] #gamepass-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):focus-visible:after {
+        border-color: unset;
+        box-shadow: unset
+    }
+
+    html[data-active-input=keyboard] #gamepass-dialog-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):focus:after,html[data-active-input=keyboard] #gamepass-modal-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):focus:after,html[data-active-input=keyboard] #gamepass-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):focus:after {
+        border-color: var(--gds-focus-borderColor);
+        box-shadow: var(--gds-focus-boxShadow)
+    }
+
+    @media(forced-colors:active) {
+        html[data-active-input=keyboard] #gamepass-dialog-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):focus:after,html[data-active-input=keyboard] #gamepass-modal-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):focus:after,html[data-active-input=keyboard] #gamepass-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):focus:after {
+            border-color: SelectedItem
+        }
+    }
+}
+
+@supports not selector(:focus-visible) {
+    #gamepass-dialog-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):focus:after,#gamepass-modal-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):focus:after,#gamepass-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):focus:after {
+        border-color: var(--gds-focus-borderColor);
+        box-shadow: var(--gds-focus-boxShadow)
+    }
+}
+
+#gamepass-dialog-root .ManageGameStorage-module__learnMoreLink___HxyvH:visited,#gamepass-modal-root .ManageGameStorage-module__learnMoreLink___HxyvH:visited,#gamepass-root .ManageGameStorage-module__learnMoreLink___HxyvH:visited {
+    color: var(--gds-contentHyperlinkVisited)
+}
+
+#gamepass-dialog-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):focus,#gamepass-modal-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):focus,#gamepass-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):focus {
+    color: var(--gds-contentHyperlinkHover)
+}
+
+@media(any-hover: hover) {
+    #gamepass-dialog-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):hover,#gamepass-modal-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):hover,#gamepass-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):hover {
+        color:var(--gds-contentHyperlinkHover)
+    }
+}
+
+#gamepass-dialog-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):active,#gamepass-modal-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):active,#gamepass-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled]):active {
+    color: var(--gds-contentHyperlinkPress)
+}
+
+html[data-active-input=gamepad] #gamepass-dialog-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled])[data-gamepad-pressed=true],html[data-active-input=gamepad] #gamepass-modal-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled])[data-gamepad-pressed=true],html[data-active-input=gamepad] #gamepass-root .ManageGameStorage-module__learnMoreLink___HxyvH:not([disabled])[data-gamepad-pressed=true] {
+    color: var(--gds-contentHyperlinkPress)
+}
+
+#gamepass-dialog-root .ManageGameStorage-module__learnMoreLink___HxyvH .ManageGameStorage-module__launchIcon___Vln2A,#gamepass-modal-root .ManageGameStorage-module__learnMoreLink___HxyvH .ManageGameStorage-module__launchIcon___Vln2A,#gamepass-root .ManageGameStorage-module__learnMoreLink___HxyvH .ManageGameStorage-module__launchIcon___Vln2A {
+    height: 14px;
+    margin: 0 0 0 4px;
+    width: 14px
+}
+
+body[data-theme=light] #gamepass-dialog-root .ManageGameStorage-module__learnMoreLink___HxyvH .ManageGameStorage-module__launchIcon___Vln2A,body[data-theme=light] #gamepass-modal-root .ManageGameStorage-module__learnMoreLink___HxyvH .ManageGameStorage-module__launchIcon___Vln2A,body[data-theme=light] #gamepass-root .ManageGameStorage-module__learnMoreLink___HxyvH .ManageGameStorage-module__launchIcon___Vln2A {
+    opacity: .65
+}
+
+body[data-theme=dark] #gamepass-dialog-root .ManageGameStorage-module__learnMoreLink___HxyvH .ManageGameStorage-module__launchIcon___Vln2A,body[data-theme=dark] #gamepass-modal-root .ManageGameStorage-module__learnMoreLink___HxyvH .ManageGameStorage-module__launchIcon___Vln2A,body[data-theme=dark] #gamepass-root .ManageGameStorage-module__learnMoreLink___HxyvH .ManageGameStorage-module__launchIcon___Vln2A {
+    opacity: .65
+}
+
+body[data-media-type=tv] #gamepass-dialog-root .ManageGameStorage-module__learnMoreLink___HxyvH,body[data-media-type=tv] #gamepass-modal-root .ManageGameStorage-module__learnMoreLink___HxyvH,body[data-media-type=tv] #gamepass-root .ManageGameStorage-module__learnMoreLink___HxyvH {
+    border-radius: 4px;
+    font-family: var(--gds-fontramp-legal-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-legal-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-legal-lineHeight);
+    line-height: 52px;
+    text-align: center;
+    width: 100%
+}
+
+body[data-media-type=tv][data-theme=light] #gamepass-dialog-root .ManageGameStorage-module__learnMoreLink___HxyvH,body[data-media-type=tv][data-theme=light] #gamepass-modal-root .ManageGameStorage-module__learnMoreLink___HxyvH,body[data-media-type=tv][data-theme=light] #gamepass-root .ManageGameStorage-module__learnMoreLink___HxyvH {
+    background-color: var(--gds-backplateSolidSecondaryRest)
+}
+
+body[data-media-type=tv][data-theme=dark] #gamepass-dialog-root .ManageGameStorage-module__learnMoreLink___HxyvH,body[data-media-type=tv][data-theme=dark] #gamepass-modal-root .ManageGameStorage-module__learnMoreLink___HxyvH,body[data-media-type=tv][data-theme=dark] #gamepass-root .ManageGameStorage-module__learnMoreLink___HxyvH {
+    background-color: var(--gds-backplateSolidSecondaryRest)
+}
+
+.DeleteUserContentRow-module__row___97V-O {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    height: 96px
+}
+
+@media (min-width: 568px) and (max-height:480px) {
+    .DeleteUserContentRow-module__row___97V-O {
+        height:64px
+    }
+}
+
+body[data-media-type=tv] .DeleteUserContentRow-module__row___97V-O {
+    height: 128px
+}
+
+.DeleteUserContentRow-module__container___Bqbzx {
+    display: flex;
+    flex: 1 1;
+    height: 100%
+}
+
+.DeleteUserContentRow-module__titleContainer___YNNsV {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    margin: 0 16px
+}
+
+body[data-media-type=tv] .DeleteUserContentRow-module__titleContainer___YNNsV {
+    margin: 0 24px
+}
+
+.DeleteUserContentRow-module__title___HluvW {
+    font-family: var(--gds-fontramp-title3-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-title3-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-title3-lineHeight)
+}
+
+.DeleteUserContentRow-module__subtitle___u\+0DQ {
+    font-family: var(--gds-fontramp-body-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-body-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-body-lineHeight)
+}
+
+body[data-theme=light] .DeleteUserContentRow-module__subtitle___u\+0DQ {
+    color: var(--gds-contentSecondary)
+}
+
+body[data-theme=dark] .DeleteUserContentRow-module__subtitle___u\+0DQ {
+    color: var(--gds-contentSecondary)
+}
+
+.DeleteUserContentRow-module__icon___-PFbw {
+    height: 32px;
+    width: 32px
+}
+
+@media (min-width: 568px) and (max-height:480px) {
+    .DeleteUserContentRow-module__icon___-PFbw {
+        height:25px;
+        width: 25px
+    }
+}
+
+body[data-media-type=tv] .DeleteUserContentRow-module__icon___-PFbw {
+    height: 48px;
+    width: 48px
+}
+
+.DeleteUserContentRow-module__iconContainer___QLy56 {
+    align-items: center;
+    border-radius: 2px;
+    display: flex;
+    flex-shrink: 0;
+    height: 100%;
+    justify-content: center;
+    width: 96px
+}
+
+@media (min-width: 568px) and (max-height:480px) {
+    .DeleteUserContentRow-module__iconContainer___QLy56 {
+        width:64px
+    }
+}
+
+body[data-media-type=tv] .DeleteUserContentRow-module__iconContainer___QLy56 {
+    width: 128px
+}
+
+body[data-theme=light] .DeleteUserContentRow-module__iconContainerCloudAction___kMYVn {
+    background-color: var(--gds-backplateSolidSecondaryRest)
+}
+
+body[data-theme=dark] .DeleteUserContentRow-module__iconContainerCloudAction___kMYVn {
+    background-color: var(--gds-backplateSolidSecondaryRest)
+}
+
+body[data-theme=light] .DeleteUserContentRow-module__iconContainerDeleteEverywhereAction___vYSP5 {
+    background-color: var(--gds-activityError)
+}
+
+body[data-theme=dark] .DeleteUserContentRow-module__iconContainerDeleteEverywhereAction___vYSP5 {
+    background-color: var(--gds-activityError)
+}
+
+.DeleteUserContentRow-module__disabled___65DC3 {
+    opacity: 30%
+}
+
+.DeleteUserContentRow-module__infoButton___S8CkK {
+    height: 100%
+}
+
+.Xbox360LearnMoreRow-module__description___6LW4L {
+    color: var(--gds-contentSecondary);
+    font-family: var(--gds-fontramp-subtitle3-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-subtitle3-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-subtitle3-lineHeight);
+    margin-bottom: 8px;
+    padding-left: var(--gds-button-paddingHorizontal)
+}
+
+.Xbox360LearnMoreRow-module__button___xZkC0 {
+    flex-shrink: 0;
+    margin-bottom: 8px
+}
+
+body[data-media-type=tv] .Xbox360LearnMoreRow-module__button___xZkC0 {
+    margin-bottom: 16px
+}
+
+.Xbox360LearnMoreRow-module__section___2-xsa {
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.ConfirmStorageDataDeletion-module__subtitle___2Bbgd {
+    color: var(--gds-contentSecondary);
+    font-family: var(--gds-fontramp-body-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-body-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-body-lineHeight);
+    white-space: pre-line
+}
+
+.ConfirmStorageDataDeletion-module__buttonsContainer___8Owlb {
+    -moz-column-gap: 16px;
+    column-gap: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    row-gap: 16px;
+    width: 100%
+}
+
+@media (min-width: 568px) and (max-height:480px) {
+    .ConfirmStorageDataDeletion-module__buttonsContainer___8Owlb {
+        flex-direction:row
+    }
+}
+
+@media (min-width: 768px) and (min-height:calc(480px + 1px)) {
+    .ConfirmStorageDataDeletion-module__buttonsContainer___8Owlb {
+        flex-direction:row
+    }
+}
+
+body[data-media-type=tv] .ConfirmStorageDataDeletion-module__buttonsContainer___8Owlb {
+    -moz-column-gap: 16px;
+    column-gap: 16px;
+    flex-direction: column;
+    margin-top: 32px
+}
+
+#gamepass-dialog-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY,#gamepass-modal-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY,#gamepass-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY,.ConfirmStorageDataDeletion-module__button___L1z-B,.ConfirmStorageDataDeletion-module__deleteLocationButton___XgekF {
+    width: 100%
+}
+
+.ConfirmStorageDataDeletion-module__deleteLocationButton___XgekF {
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+    flex-direction: row-reverse;
+    justify-content: left
+}
+
+body[data-theme=light] #gamepass-dialog-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY,body[data-theme=light] #gamepass-modal-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY,body[data-theme=light] #gamepass-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY {
+    background-color: var(--gds-activityError)
+}
+
+@media(any-hover: hover) {
+    body[data-theme=light] #gamepass-dialog-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY:not([disabled]):hover,body[data-theme=light] #gamepass-modal-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY:not([disabled]):hover,body[data-theme=light] #gamepass-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY:not([disabled]):hover {
+        background-color:#c72828
+    }
+}
+
+body[data-theme=light] #gamepass-dialog-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY:not([disabled]):focus,body[data-theme=light] #gamepass-modal-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY:not([disabled]):focus,body[data-theme=light] #gamepass-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY:not([disabled]):focus {
+    background-color: #c72828
+}
+
+body[data-theme=light] #gamepass-dialog-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY:not([disabled]):active,body[data-theme=light] #gamepass-modal-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY:not([disabled]):active,body[data-theme=light] #gamepass-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY:not([disabled]):active {
+    background-color: #ae0e0e
+}
+
+html[data-active-input=gamepad] body[data-theme=light] #gamepass-dialog-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY:not([disabled])[data-gamepad-pressed=true],html[data-active-input=gamepad] body[data-theme=light] #gamepass-modal-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY:not([disabled])[data-gamepad-pressed=true],html[data-active-input=gamepad] body[data-theme=light] #gamepass-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY:not([disabled])[data-gamepad-pressed=true] {
+    background-color: #ae0e0e
+}
+
+body[data-theme=dark] #gamepass-dialog-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY,body[data-theme=dark] #gamepass-modal-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY,body[data-theme=dark] #gamepass-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY {
+    background-color: var(--gds-activityError)
+}
+
+@media(any-hover: hover) {
+    body[data-theme=dark] #gamepass-dialog-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY:not([disabled]):hover,body[data-theme=dark] #gamepass-modal-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY:not([disabled]):hover,body[data-theme=dark] #gamepass-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY:not([disabled]):hover {
+        background-color:#c72828
+    }
+}
+
+body[data-theme=dark] #gamepass-dialog-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY:not([disabled]):focus,body[data-theme=dark] #gamepass-modal-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY:not([disabled]):focus,body[data-theme=dark] #gamepass-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY:not([disabled]):focus {
+    background-color: #c72828
+}
+
+body[data-theme=dark] #gamepass-dialog-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY:not([disabled]):active,body[data-theme=dark] #gamepass-modal-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY:not([disabled]):active,body[data-theme=dark] #gamepass-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY:not([disabled]):active {
+    background-color: #ae0e0e
+}
+
+html[data-active-input=gamepad] body[data-theme=dark] #gamepass-dialog-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY:not([disabled])[data-gamepad-pressed=true],html[data-active-input=gamepad] body[data-theme=dark] #gamepass-modal-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY:not([disabled])[data-gamepad-pressed=true],html[data-active-input=gamepad] body[data-theme=dark] #gamepass-root .ConfirmStorageDataDeletion-module__errorButton___1-IJY:not([disabled])[data-gamepad-pressed=true] {
+    background-color: #ae0e0e
+}
+
+.Developer-module__sectionGap___m5OPj {
+    display: flex;
+    flex-direction: column;
+    gap: 32px
+}
+
+.Developer-module__subSection___n830P {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%
+}
+
+.Developer-module__subtitle___U3fmr {
+    color: var(--gds-contentPrimary);
+    font-family: var(--gds-fontramp-title4-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-title4-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-title4-lineHeight)
+}
+
+.Developer-module__ellipsis___z3L3Q {
+    text-overflow: ellipsis
+}
+
+.Developer-module__picker___ibJLn {
+    width: 100%
+}
+
+.Developer-module__description___xPRCA {
+    color: var(--gds-contentPrimary);
+    font-family: var(--gds-fontramp-caption-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-caption-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-caption-lineHeight);
+    margin-bottom: 0
+}
+
+.Developer-module__rowContent___wVAYb {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    width: 100%
+}
+
+.NavigationMenu-module__container___N0w12 {
+    background-color: var(--gds-containerSolidContainer);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    height: calc(env(safe-area-inset-top, 0px) + 104px);
+    justify-content: space-between;
+    padding-top: calc(env(safe-area-inset-top, 0px));
+    width: 100%
+}
+
+@media (min-width: 480px) {
+    .NavigationMenu-module__container___N0w12 {
+        height:96px
+    }
+}
+
+@media (min-width: 768px) and (min-height:calc(480px + 1px)) {
+    .NavigationMenu-module__container___N0w12 {
+        height:100%;
+        justify-content: unset;
+        width: 240px
+    }
+}
+
+body[data-media-type=tv] .NavigationMenu-module__container___N0w12 {
+    width: 582px
+}
+
+.NavigationMenu-module__verticalMenuScrollable___SbqS7 {
+    height: 100%;
+    overflow-y: auto
+}
+
+@media (min-width: 768px) and (min-height:calc(480px + 1px)) {
+    .NavigationMenu-module__verticalMenuScrollable___SbqS7 {
+        padding-left:24px;
+        padding-right: 24px
+    }
+}
+
+body[data-media-type=tv] .NavigationMenu-module__verticalMenuScrollable___SbqS7 {
+    padding-left: 80px;
+    padding-right: 74px
+}
+
+.NavigationMenu-module__header___xSTVU {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.NavigationMenu-module__tabHeader___7TUeP {
+    color: var(--gds-contentPrimary);
+    font-family: var(--gds-fontramp-section3-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-section3-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-section3-lineHeight);
+    margin-left: 16px;
+    margin-top: 16px
+}
+
+@media (min-width: 480px) {
+    .NavigationMenu-module__tabHeader___7TUeP {
+        margin-left:74px
+    }
+}
+
+@media (min-width: 768px) and (min-height:calc(480px + 1px)) {
+    .NavigationMenu-module__tabHeader___7TUeP {
+        margin-bottom:24px;
+        margin-left: 0;
+        margin-top: 24px
+    }
+}
+
+body[data-media-type=tv] .NavigationMenu-module__tabHeader___7TUeP {
+    margin-bottom: 32px;
+    margin-top: 40px
+}
+
+#gamepass-dialog-root .NavigationMenu-module__inlineTabLabel___Al5Fa,#gamepass-modal-root .NavigationMenu-module__inlineTabLabel___Al5Fa,#gamepass-root .NavigationMenu-module__inlineTabLabel___Al5Fa {
+    text-transform: uppercase
+}
+
+body[data-theme=light] #gamepass-dialog-root .NavigationMenu-module__inlineTabLabel___Al5Fa,body[data-theme=light] #gamepass-modal-root .NavigationMenu-module__inlineTabLabel___Al5Fa,body[data-theme=light] #gamepass-root .NavigationMenu-module__inlineTabLabel___Al5Fa {
+    color: var(--gds-contentSecondary)
+}
+
+body[data-theme=dark] #gamepass-dialog-root .NavigationMenu-module__inlineTabLabel___Al5Fa,body[data-theme=dark] #gamepass-modal-root .NavigationMenu-module__inlineTabLabel___Al5Fa,body[data-theme=dark] #gamepass-root .NavigationMenu-module__inlineTabLabel___Al5Fa {
+    color: var(--gds-contentSecondary)
+}
+
+#gamepass-dialog-root .NavigationMenu-module__inlineTabLabel___Al5Fa:first-child,#gamepass-modal-root .NavigationMenu-module__inlineTabLabel___Al5Fa:first-child,#gamepass-root .NavigationMenu-module__inlineTabLabel___Al5Fa:first-child {
+    margin-left: 16px
+}
+
+@media (min-width: 480px) {
+    #gamepass-dialog-root .NavigationMenu-module__inlineTabLabel___Al5Fa:first-child,#gamepass-modal-root .NavigationMenu-module__inlineTabLabel___Al5Fa:first-child,#gamepass-root .NavigationMenu-module__inlineTabLabel___Al5Fa:first-child {
+        margin-left:74px
+    }
+}
+
+#gamepass-dialog-root .NavigationMenu-module__inlineTabLabel___Al5Fa:last-child,#gamepass-modal-root .NavigationMenu-module__inlineTabLabel___Al5Fa:last-child,#gamepass-root .NavigationMenu-module__inlineTabLabel___Al5Fa:last-child {
+    margin-right: 16px
+}
+
+@media (min-width: 480px) {
+    #gamepass-dialog-root .NavigationMenu-module__inlineTabLabel___Al5Fa:last-child,#gamepass-modal-root .NavigationMenu-module__inlineTabLabel___Al5Fa:last-child,#gamepass-root .NavigationMenu-module__inlineTabLabel___Al5Fa:last-child {
+        margin-right:74px
+    }
+}
+
+#gamepass-dialog-root .NavigationMenu-module__selectedInlineTabLabel___jZdKt,#gamepass-modal-root .NavigationMenu-module__selectedInlineTabLabel___jZdKt,#gamepass-root .NavigationMenu-module__selectedInlineTabLabel___jZdKt {
+    text-transform: uppercase
+}
+
+body[data-theme=light] #gamepass-dialog-root .NavigationMenu-module__selectedInlineTabLabel___jZdKt,body[data-theme=light] #gamepass-modal-root .NavigationMenu-module__selectedInlineTabLabel___jZdKt,body[data-theme=light] #gamepass-root .NavigationMenu-module__selectedInlineTabLabel___jZdKt {
+    color: var(--gds-contentPrimary)
+}
+
+body[data-theme=dark] #gamepass-dialog-root .NavigationMenu-module__selectedInlineTabLabel___jZdKt,body[data-theme=dark] #gamepass-modal-root .NavigationMenu-module__selectedInlineTabLabel___jZdKt,body[data-theme=dark] #gamepass-root .NavigationMenu-module__selectedInlineTabLabel___jZdKt {
+    color: var(--gds-contentPrimary)
+}
+
+.NavigationMenu-module__stackedTabs___j2x4l {
+    display: flex;
+    flex-direction: column
+}
+
+.NavigationMenu-module__stackedTabButton___hYtxc {
+    justify-content: unset;
+    margin-bottom: 12px;
+    width: 100%
+}
+
+body[data-media-type=tv] .NavigationMenu-module__stackedTabButton___hYtxc {
+    margin-bottom: 16px
+}
+
+.NavigationMenu-module__stackedTabButton___hYtxc.NavigationMenu-module__selected___2AgrB {
+    font-family: Segoe UI Bold
+}
+
+body[data-theme=light] .NavigationMenu-module__stackedTabButton___hYtxc.NavigationMenu-module__selected___2AgrB {
+    background-color: var(--gds-backplateSolidPrimaryHover)
+}
+
+body[data-theme=dark] .NavigationMenu-module__stackedTabButton___hYtxc.NavigationMenu-module__selected___2AgrB {
+    background-color: var(--gds-backplateSolidPrimaryHover)
+}
+
+.NavigationMenu-module__closeButton___d8XgK {
+    right: calc(env(safe-area-inset-right, 0px) + 16px);
+    top: 16px
+}
+
+@media (min-width: 768px) and (min-height:calc(480px + 1px)) {
+    .NavigationMenu-module__closeButton___d8XgK {
+        display:none
+    }
+}
+
+.Settings-module__settings___gBtuI {
+    background-color: var(--gds-containerSolidAppBackground);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    width: 100%
+}
+
+@media (min-width: 768px) and (min-height:calc(480px + 1px)) {
+    .Settings-module__settings___gBtuI {
+        border-radius:8px;
+        flex-direction: row;
+        margin: 40px;
+        max-height: min(864px,100vh - 80px);
+        overflow: hidden
+    }
+}
+
+body[data-media-type=default][data-theme=light] .Settings-module__settings___gBtuI {
+    box-shadow: 0 0 12px 0 #00000080
+}
+
+body[data-media-type=default][data-theme=dark] .Settings-module__settings___gBtuI {
+    box-shadow: 0 0 12px 0 #00000080
+}
+
+body[data-media-type=default][data-theme=hc-white] .Settings-module__settings___gBtuI {
+    outline: 2px solid var(--gds-contentPrimary)
+}
+
+body[data-media-type=default][data-theme=hc-black] .Settings-module__settings___gBtuI {
+    outline: 2px solid var(--gds-contentPrimary)
+}
+
+body[data-media-type=default][data-theme=hc-aquatic] .Settings-module__settings___gBtuI {
+    outline: 2px solid var(--gds-contentPrimary)
+}
+
+body[data-media-type=default][data-theme=hc-desert] .Settings-module__settings___gBtuI {
+    outline: 2px solid var(--gds-contentPrimary)
+}
+
+body[data-media-type=tv] .Settings-module__settings___gBtuI {
+    border-radius: unset;
+    margin: unset;
+    max-height: unset
+}
+
+.TabContent-module__container___qB6oS {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 0;
+    position: relative;
+    width: 100%
+}
+
+.TabContent-module__group___BhkdS {
+    display: flex;
+    flex-direction: column;
+    height: inherit
+}
+
+.TabContent-module__desktopHeader___qX4tK.TabContent-module__desktopHeader___qX4tK.TabContent-module__desktopHeader___qX4tK.TabContent-module__desktopHeader___qX4tK {
+    display: none
+}
+
+@media (min-width: 768px) and (min-height:calc(480px + 1px)) {
+    .TabContent-module__desktopHeader___qX4tK.TabContent-module__desktopHeader___qX4tK.TabContent-module__desktopHeader___qX4tK.TabContent-module__desktopHeader___qX4tK {
+        display:flex
+    }
+
+    .TabContent-module__mobileHeader___62Uc\+.TabContent-module__mobileHeader___62Uc\+.TabContent-module__mobileHeader___62Uc\+.TabContent-module__mobileHeader___62Uc\+ {
+        display: none
+    }
+}
+
+.TabContent-module__scrollable___pyUHR {
+    flex: 1 1;
+    overflow-x: hidden;
+    overflow-y: auto
+}
+
+.TabContent-module__tabContent___fiukr {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-right: calc(env(safe-area-inset-right, 0px));
+    padding: 16px 16px 0 calc(env(safe-area-inset-left, 0px) + 16px)
+}
+
+@media (min-width: 480px) {
+    .TabContent-module__tabContent___fiukr {
+        padding:16px 74px 0 calc(env(safe-area-inset-left, 0px) + 74px)
+    }
+}
+
+@media (min-width: 768px) and (min-height:calc(480px + 1px)) {
+    .TabContent-module__tabContent___fiukr {
+        padding:12px 32px 0 36px
+    }
+}
+
+@media (min-width: 1024px) and (min-height:calc(480px + 1px)) {
+    .TabContent-module__tabContent___fiukr {
+        padding:12px 80px 0
+    }
+}
+
+body[data-media-type=tv] .TabContent-module__tabContent___fiukr {
+    padding: 24px 302px 0 238px
+}
+
+.TabContent-module__bottomSpacing___l9Klx {
+    flex-shrink: 0;
+    height: 32px
+}
+
+@media (min-width: 768px) and (min-height:calc(480px + 1px)) {
+    .TabContent-module__bottomSpacing___l9Klx {
+        height:40px
+    }
+}
+
+.Header-module__container___btmpU {
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: row;
+    height: calc(var(--gds-fontramp-title3-lineHeight) + var(--gds-fontramp-subtitle2-lineHeight));
+    justify-content: space-between;
+    padding-bottom: 16px;
+    position: relative
+}
+
+@media (min-width: 768px) and (min-height:calc(480px + 1px)) {
+    .Header-module__container___btmpU {
+        padding-left:36px;
+        padding-top: 16px
+    }
+}
+
+@media (min-width: 1024px) and (min-height:calc(480px + 1px)) {
+    .Header-module__container___btmpU {
+        padding-left:0
+    }
+}
+
+body[data-media-type=tv] .Header-module__container___btmpU {
+    padding-top: 24px
+}
+
+.Header-module__topLevelNav___S0U4e {
+    display: none
+}
+
+@media (min-width: 768px) and (min-height:calc(480px + 1px)) {
+    .Header-module__topLevelNav___S0U4e {
+        display:flex
+    }
+}
+
+.Header-module__topLevelNav___S0U4e .Header-module__backButton___dRf5C {
+    display: none
+}
+
+.Header-module__leftGroup___nOHVT {
+    display: flex;
+    flex-direction: row
+}
+
+.Header-module__backContainer___34bz6 {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: flex-end
+}
+
+@media (min-width: 1024px) and (min-height:calc(480px + 1px)) {
+    .Header-module__backContainer___34bz6 {
+        width:80px
+    }
+}
+
+body[data-media-type=tv] .Header-module__backContainer___34bz6 {
+    width: 238px
+}
+
+.Header-module__backButton___dRf5C {
+    display: flex;
+    margin-right: 16px
+}
+
+.Header-module__titleContainer___bw\+eC {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+@media (min-width: 768px) and (min-height:calc(480px + 1px)) {
+    .Header-module__titleContainer___bw\+eC {
+        padding-right:16px
+    }
+}
+
+@media (min-width: 1024px) and (min-height:calc(480px + 1px)) {
+    .Header-module__titleContainer___bw\+eC {
+        padding-right:unset
+    }
+}
+
+.Header-module__title___O1GfE {
+    color: var(--gds-contentPrimary);
+    font-family: var(--gds-fontramp-title3-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-title3-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-title3-lineHeight)
+}
+
+.Header-module__subtitle___1-Fh- {
+    color: var(--gds-contentSecondary);
+    font-family: var(--gds-fontramp-subtitle2-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-subtitle2-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-subtitle2-lineHeight)
+}
+
+.Header-module__closeContainer___0LwKR {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: flex-end
+}
+
+@media (min-width: 1024px) and (min-height:calc(480px + 1px)) {
+    .Header-module__closeContainer___0LwKR {
+        width:80px
+    }
+}
+
+body[data-media-type=tv] .Header-module__closeContainer___0LwKR {
+    width: 302px
+}
+
+.Header-module__closeButton___tISKN {
+    display: none;
+    margin-right: 16px
+}
+
+@media (min-width: 768px) and (min-height:calc(480px + 1px)) {
+    .Header-module__closeButton___tISKN {
+        display:flex
+    }
+}
+
+body[data-media-type=tv] .Header-module__closeButton___tISKN {
+    display: none
+}
+
+/*# sourceMappingURL=90489.97127bfb.chunk.css.map*/

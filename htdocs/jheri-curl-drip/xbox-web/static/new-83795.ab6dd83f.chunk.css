@@ -1,0 +1,731 @@
+.ItemRow-module__rowHeaderContainer___XdI4V {
+    margin-left: calc(env(safe-area-inset-left, 0px) + 16px);
+    margin-right: calc(env(safe-area-inset-right, 0px) + 16px);
+    position: relative
+}
+
+@media (min-width: 480px) and (min-height:calc(480px + 1px)) {
+    .ItemRow-module__rowHeaderContainer___XdI4V {
+        margin-left:calc(env(safe-area-inset-left, 0px) + 32px);
+        margin-right: calc(env(safe-area-inset-right, 0px) + 32px)
+    }
+}
+
+@media (min-width: 768px) and (min-height:calc(480px + 1px)) {
+    .ItemRow-module__rowHeaderContainer___XdI4V {
+        margin-left:calc(env(safe-area-inset-left, 0px) + 48px);
+        margin-right: calc(env(safe-area-inset-right, 0px) + 48px)
+    }
+}
+
+@media (min-width: 1920px) and (min-height:calc(480px + 1px)) {
+    .ItemRow-module__rowHeaderContainer___XdI4V {
+        margin-left:calc(env(safe-area-inset-left, 0px) + 80px);
+        margin-right: calc(env(safe-area-inset-right, 0px) + 80px)
+    }
+}
+
+.ItemRow-module__cardsRowContainer___T0tvF {
+    position: relative
+}
+
+#gamepass-dialog-root .ItemRow-module__cardsRowContainer___T0tvF:hover .ItemRow-module__arrow___jvg61,#gamepass-modal-root .ItemRow-module__cardsRowContainer___T0tvF:hover .ItemRow-module__arrow___jvg61,#gamepass-root .ItemRow-module__cardsRowContainer___T0tvF:hover .ItemRow-module__arrow___jvg61 {
+    opacity: 1
+}
+
+.ItemRow-module__scrollContainer___L1Hiw {
+    display: flex;
+    margin-bottom: calc(var(--gds-focus-borderSize)*-1);
+    margin-top: calc(var(--gds-focus-borderSize)*-1);
+    padding-bottom: var(--gds-focus-borderSize);
+    padding-left: calc(env(safe-area-inset-left, 0px) + 16px);
+    padding-top: var(--gds-focus-borderSize);
+    scrollbar-width: none;
+    white-space: nowrap
+}
+
+@media (min-width: 480px) and (min-height:calc(480px + 1px)) {
+    .ItemRow-module__scrollContainer___L1Hiw {
+        padding-left:calc(env(safe-area-inset-left, 0px) + 32px)
+    }
+}
+
+@media (min-width: 768px) and (min-height:calc(480px + 1px)) {
+    .ItemRow-module__scrollContainer___L1Hiw {
+        padding-left:calc(env(safe-area-inset-left, 0px) + 48px)
+    }
+}
+
+@media (min-width: 1920px) and (min-height:calc(480px + 1px)) {
+    .ItemRow-module__scrollContainer___L1Hiw {
+        padding-left:calc(env(safe-area-inset-left, 0px) + 80px)
+    }
+}
+
+.ItemRow-module__scrollContainer___L1Hiw:after {
+    content: "";
+    padding-right: calc(env(safe-area-inset-right, 0px) + 16px)
+}
+
+@media (min-width: 480px) and (min-height:calc(480px + 1px)) {
+    .ItemRow-module__scrollContainer___L1Hiw:after {
+        padding-right:calc(env(safe-area-inset-right, 0px) + 32px)
+    }
+}
+
+@media (min-width: 768px) and (min-height:calc(480px + 1px)) {
+    .ItemRow-module__scrollContainer___L1Hiw:after {
+        padding-right:calc(env(safe-area-inset-right, 0px) + 48px)
+    }
+}
+
+@media (min-width: 1920px) and (min-height:calc(480px + 1px)) {
+    .ItemRow-module__scrollContainer___L1Hiw:after {
+        padding-right:calc(env(safe-area-inset-right, 0px) + 80px)
+    }
+}
+
+.ItemRow-module__scrollContainer___L1Hiw::-webkit-scrollbar {
+    display: none;
+    width: 0!important
+}
+
+.ItemRow-module__list___xH4G5 {
+    list-style: none;
+    width: -moz-fit-content;
+    width: fit-content
+}
+
+.ItemRow-module__legacyChromiumLayerHint___-bOPf {
+    will-change: transform
+}
+
+.ScrollArrows-module__arrow___yne\+l {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    opacity: .0001;
+    padding: var(--gds-focus-borderSize);
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    transition: opacity .25s
+}
+
+.ScrollArrows-module__arrow___yne\+l>* {
+    pointer-events: auto
+}
+
+@media(hover: none) {
+    .ScrollArrows-module__arrow___yne\+l {
+        display:none
+    }
+}
+
+body[data-media-type=tv] .ScrollArrows-module__arrow___yne\+l {
+    display: none
+}
+
+.ScrollArrows-module__arrowLeft___Lp2uh {
+    left: calc(env(safe-area-inset-left, 0px) + 16px - var(--gds-focus-borderSize))
+}
+
+@media (min-width: 480px) and (min-height:calc(480px + 1px)) {
+    .ScrollArrows-module__arrowLeft___Lp2uh {
+        left:calc(env(safe-area-inset-left, 0px) + 32px - var(--gds-focus-borderSize))
+    }
+}
+
+@media (min-width: 768px) and (min-height:calc(480px + 1px)) {
+    .ScrollArrows-module__arrowLeft___Lp2uh {
+        left:calc(env(safe-area-inset-left, 0px) + 48px - var(--gds-focus-borderSize))
+    }
+}
+
+.ScrollArrows-module__arrowRight___zpJww {
+    right: calc(env(safe-area-inset-right, 0px) + 16px - var(--gds-focus-borderSize))
+}
+
+@media (min-width: 480px) and (min-height:calc(480px + 1px)) {
+    .ScrollArrows-module__arrowRight___zpJww {
+        right:calc(env(safe-area-inset-right, 0px) + 32px - var(--gds-focus-borderSize))
+    }
+}
+
+@media (min-width: 768px) and (min-height:calc(480px + 1px)) {
+    .ScrollArrows-module__arrowRight___zpJww {
+        right:calc(env(safe-area-inset-right, 0px) + 48px - var(--gds-focus-borderSize))
+    }
+}
+
+body[data-theme=hc-black] .ScrollArrows-module__arrow___yne\+l .ScrollArrows-module__button___uP2bg {
+    background-color: var(--gds-containerSolidAppBackground)
+}
+
+body[data-theme=hc-aquatic] .ScrollArrows-module__arrow___yne\+l .ScrollArrows-module__button___uP2bg {
+    background-color: var(--gds-containerSolidAppBackground)
+}
+
+.GameCard-module__container___56FqD {
+    position: relative
+}
+
+.GameCard-module__container___56FqD:hover .GameCard-module__optionsButton___tot0J {
+    display: block
+}
+
+.GameCard-module__optionsButton___tot0J {
+    display: none;
+    position: absolute;
+    right: 8px;
+    top: 8px
+}
+
+.GameCard-module__ownershipBadge___fTw3X {
+    bottom: 0;
+    left: 0;
+    position: absolute
+}
+
+.GameCard-module__fullSize___dRcIP {
+    height: 100%;
+    width: 100%
+}
+
+.GameCard-module__inputBadge___bACdR {
+    border-radius: 4px 0 4px 0
+}
+
+body[data-media-type=tv][data-theme=light] .GameCard-module__overlay___XP9BL {
+    background: radial-gradient(ellipse 200px 150px at 0 100%,rgba(0,0,0,.7) 0,rgba(0,0,0,.5) 25%,transparent 100%)
+}
+
+body[data-media-type=tv][data-theme=dark] .GameCard-module__overlay___XP9BL {
+    background: radial-gradient(ellipse 200px 150px at 0 100%,rgba(0,0,0,.7) 0,rgba(0,0,0,.5) 25%,transparent 100%)
+}
+
+.GameCard-module__card___dU3jx {
+    -webkit-touch-callout: none;
+    display: flex
+}
+
+@media(any-hover: hover) {
+    .GameCard-module__card___dU3jx:not([disabled]):hover .GameCard-module__gameTitleInnerWrapper___t6Uuw {
+        max-height:100%;
+        transition: max-height .15s ease-in 0ms;
+        visibility: visible
+    }
+
+    .GameCard-module__card___dU3jx:not([disabled]):hover .GameCard-module__children___-XxUd {
+        visibility: hidden
+    }
+}
+
+.GameCard-module__card___dU3jx:not([disabled]):focus .GameCard-module__gameTitleInnerWrapper___t6Uuw {
+    max-height: 100%;
+    transition: max-height .15s ease-in 0ms;
+    visibility: visible
+}
+
+.GameCard-module__card___dU3jx:not([disabled]):focus .GameCard-module__children___-XxUd {
+    visibility: hidden
+}
+
+body[data-theme=light] .GameCard-module__card___dU3jx:not([disabled]):active .GameCard-module__group___VMzkc {
+    background-color: var(--gds-statePress)
+}
+
+html[data-active-input=gamepad] body[data-theme=light] .GameCard-module__card___dU3jx:not([disabled])[data-gamepad-pressed=true] .GameCard-module__group___VMzkc {
+    background-color: var(--gds-statePress)
+}
+
+body[data-theme=dark] .GameCard-module__card___dU3jx:not([disabled]):active .GameCard-module__group___VMzkc {
+    background-color: var(--gds-statePress)
+}
+
+html[data-active-input=gamepad] body[data-theme=dark] .GameCard-module__card___dU3jx:not([disabled])[data-gamepad-pressed=true] .GameCard-module__group___VMzkc {
+    background-color: var(--gds-statePress)
+}
+
+body[data-theme=hc-white] .GameCard-module__card___dU3jx .GameCard-module__group___VMzkc {
+    border: 2px solid var(--gds-dividerOnBackplateSolidPrimaryRest)
+}
+
+@media(any-hover: hover) {
+    body[data-theme=hc-white] .GameCard-module__card___dU3jx:not([disabled]):hover .GameCard-module__group___VMzkc {
+        border:2px solid var(--gds-dividerOnBackplateSolidPrimaryHover)
+    }
+}
+
+body[data-theme=hc-white] .GameCard-module__card___dU3jx:not([disabled]):active .GameCard-module__group___VMzkc {
+    border: 2px solid var(--gds-dividerOnBackplateSolidPrimaryFocus)
+}
+
+html[data-active-input=gamepad] body[data-theme=hc-white] .GameCard-module__card___dU3jx:not([disabled])[data-gamepad-pressed=true] .GameCard-module__group___VMzkc {
+    border: 2px solid var(--gds-dividerOnBackplateSolidPrimaryFocus)
+}
+
+body[data-theme=hc-white] .GameCard-module__card___dU3jx:not([disabled]):focus .GameCard-module__group___VMzkc {
+    border: 2px solid var(--gds-dividerOnBackplateSolidPrimaryPress)
+}
+
+body[data-theme=hc-white] .GameCard-module__card___dU3jx:disabled .GameCard-module__group___VMzkc {
+    border: 2px solid var(--gds-dividerOnBackplateSolidPrimaryDisabled)
+}
+
+body[data-theme=hc-white] .GameCard-module__card___dU3jx .GameCard-module__gameTitleInnerWrapper___t6Uuw {
+    background-color: var(--gds-backplateSolidPrimaryRest)
+}
+
+@media(any-hover: hover) {
+    body[data-theme=hc-white] .GameCard-module__card___dU3jx:not([disabled]):hover .GameCard-module__gameTitleInnerWrapper___t6Uuw {
+        background-color:var(--gds-backplateSolidPrimaryHover)
+    }
+}
+
+body[data-theme=hc-white] .GameCard-module__card___dU3jx:not([disabled]):focus .GameCard-module__gameTitleInnerWrapper___t6Uuw {
+    background-color: var(--gds-backplateSolidPrimaryFocus)
+}
+
+body[data-theme=hc-white] .GameCard-module__card___dU3jx:not([disabled]):active .GameCard-module__gameTitleInnerWrapper___t6Uuw {
+    background-color: var(--gds-backplateSolidPrimaryPress)
+}
+
+html[data-active-input=gamepad] body[data-theme=hc-white] .GameCard-module__card___dU3jx:not([disabled])[data-gamepad-pressed=true] .GameCard-module__gameTitleInnerWrapper___t6Uuw {
+    background-color: var(--gds-backplateSolidPrimaryPress)
+}
+
+body[data-theme=hc-white] .GameCard-module__card___dU3jx:disabled .GameCard-module__gameTitleInnerWrapper___t6Uuw {
+    background-color: var(--gds-backplateSolidPrimaryDisabled)
+}
+
+body[data-theme=hc-white] .GameCard-module__card___dU3jx .GameCard-module__gameTitle___2DpMV {
+    fill: var(--gds-contentOnBackplateSolidPrimaryRest);
+    color: var(--gds-contentOnBackplateSolidPrimaryRest)
+}
+
+@media(any-hover: hover) {
+    body[data-theme=hc-white] .GameCard-module__card___dU3jx:not([disabled]):hover .GameCard-module__gameTitle___2DpMV {
+        fill:var(--gds-contentOnBackplateSolidPrimaryHover);
+        color: var(--gds-contentOnBackplateSolidPrimaryHover)
+    }
+}
+
+body[data-theme=hc-white] .GameCard-module__card___dU3jx:not([disabled]):focus .GameCard-module__gameTitle___2DpMV {
+    fill: var(--gds-contentOnBackplateSolidPrimaryFocus);
+    color: var(--gds-contentOnBackplateSolidPrimaryFocus)
+}
+
+body[data-theme=hc-white] .GameCard-module__card___dU3jx:not([disabled]):active .GameCard-module__gameTitle___2DpMV {
+    fill: var(--gds-contentOnBackplateSolidPrimaryPress);
+    color: var(--gds-contentOnBackplateSolidPrimaryPress)
+}
+
+html[data-active-input=gamepad] body[data-theme=hc-white] .GameCard-module__card___dU3jx:not([disabled])[data-gamepad-pressed=true] .GameCard-module__gameTitle___2DpMV {
+    fill: var(--gds-contentOnBackplateSolidPrimaryPress);
+    color: var(--gds-contentOnBackplateSolidPrimaryPress)
+}
+
+body[data-theme=hc-white] .GameCard-module__card___dU3jx:disabled .GameCard-module__gameTitle___2DpMV {
+    fill: var(--gds-contentOnBackplateSolidPrimaryDisabled);
+    color: var(--gds-contentOnBackplateSolidPrimaryDisabled)
+}
+
+body[data-theme=hc-black] .GameCard-module__card___dU3jx .GameCard-module__group___VMzkc {
+    border: 2px solid var(--gds-dividerOnBackplateSolidPrimaryRest)
+}
+
+@media(any-hover: hover) {
+    body[data-theme=hc-black] .GameCard-module__card___dU3jx:not([disabled]):hover .GameCard-module__group___VMzkc {
+        border:2px solid var(--gds-dividerOnBackplateSolidPrimaryHover)
+    }
+}
+
+body[data-theme=hc-black] .GameCard-module__card___dU3jx:not([disabled]):active .GameCard-module__group___VMzkc {
+    border: 2px solid var(--gds-dividerOnBackplateSolidPrimaryFocus)
+}
+
+html[data-active-input=gamepad] body[data-theme=hc-black] .GameCard-module__card___dU3jx:not([disabled])[data-gamepad-pressed=true] .GameCard-module__group___VMzkc {
+    border: 2px solid var(--gds-dividerOnBackplateSolidPrimaryFocus)
+}
+
+body[data-theme=hc-black] .GameCard-module__card___dU3jx:not([disabled]):focus .GameCard-module__group___VMzkc {
+    border: 2px solid var(--gds-dividerOnBackplateSolidPrimaryPress)
+}
+
+body[data-theme=hc-black] .GameCard-module__card___dU3jx:disabled .GameCard-module__group___VMzkc {
+    border: 2px solid var(--gds-dividerOnBackplateSolidPrimaryDisabled)
+}
+
+body[data-theme=hc-black] .GameCard-module__card___dU3jx .GameCard-module__gameTitleInnerWrapper___t6Uuw {
+    background-color: var(--gds-backplateSolidPrimaryRest)
+}
+
+@media(any-hover: hover) {
+    body[data-theme=hc-black] .GameCard-module__card___dU3jx:not([disabled]):hover .GameCard-module__gameTitleInnerWrapper___t6Uuw {
+        background-color:var(--gds-backplateSolidPrimaryHover)
+    }
+}
+
+body[data-theme=hc-black] .GameCard-module__card___dU3jx:not([disabled]):focus .GameCard-module__gameTitleInnerWrapper___t6Uuw {
+    background-color: var(--gds-backplateSolidPrimaryFocus)
+}
+
+body[data-theme=hc-black] .GameCard-module__card___dU3jx:not([disabled]):active .GameCard-module__gameTitleInnerWrapper___t6Uuw {
+    background-color: var(--gds-backplateSolidPrimaryPress)
+}
+
+html[data-active-input=gamepad] body[data-theme=hc-black] .GameCard-module__card___dU3jx:not([disabled])[data-gamepad-pressed=true] .GameCard-module__gameTitleInnerWrapper___t6Uuw {
+    background-color: var(--gds-backplateSolidPrimaryPress)
+}
+
+body[data-theme=hc-black] .GameCard-module__card___dU3jx:disabled .GameCard-module__gameTitleInnerWrapper___t6Uuw {
+    background-color: var(--gds-backplateSolidPrimaryDisabled)
+}
+
+body[data-theme=hc-black] .GameCard-module__card___dU3jx .GameCard-module__gameTitle___2DpMV {
+    fill: var(--gds-contentOnBackplateSolidPrimaryRest);
+    color: var(--gds-contentOnBackplateSolidPrimaryRest)
+}
+
+@media(any-hover: hover) {
+    body[data-theme=hc-black] .GameCard-module__card___dU3jx:not([disabled]):hover .GameCard-module__gameTitle___2DpMV {
+        fill:var(--gds-contentOnBackplateSolidPrimaryHover);
+        color: var(--gds-contentOnBackplateSolidPrimaryHover)
+    }
+}
+
+body[data-theme=hc-black] .GameCard-module__card___dU3jx:not([disabled]):focus .GameCard-module__gameTitle___2DpMV {
+    fill: var(--gds-contentOnBackplateSolidPrimaryFocus);
+    color: var(--gds-contentOnBackplateSolidPrimaryFocus)
+}
+
+body[data-theme=hc-black] .GameCard-module__card___dU3jx:not([disabled]):active .GameCard-module__gameTitle___2DpMV {
+    fill: var(--gds-contentOnBackplateSolidPrimaryPress);
+    color: var(--gds-contentOnBackplateSolidPrimaryPress)
+}
+
+html[data-active-input=gamepad] body[data-theme=hc-black] .GameCard-module__card___dU3jx:not([disabled])[data-gamepad-pressed=true] .GameCard-module__gameTitle___2DpMV {
+    fill: var(--gds-contentOnBackplateSolidPrimaryPress);
+    color: var(--gds-contentOnBackplateSolidPrimaryPress)
+}
+
+body[data-theme=hc-black] .GameCard-module__card___dU3jx:disabled .GameCard-module__gameTitle___2DpMV {
+    fill: var(--gds-contentOnBackplateSolidPrimaryDisabled);
+    color: var(--gds-contentOnBackplateSolidPrimaryDisabled)
+}
+
+body[data-theme=hc-aquatic] .GameCard-module__card___dU3jx .GameCard-module__group___VMzkc {
+    border: 2px solid var(--gds-dividerOnBackplateSolidPrimaryRest)
+}
+
+@media(any-hover: hover) {
+    body[data-theme=hc-aquatic] .GameCard-module__card___dU3jx:not([disabled]):hover .GameCard-module__group___VMzkc {
+        border:2px solid var(--gds-dividerOnBackplateSolidPrimaryHover)
+    }
+}
+
+body[data-theme=hc-aquatic] .GameCard-module__card___dU3jx:not([disabled]):active .GameCard-module__group___VMzkc {
+    border: 2px solid var(--gds-dividerOnBackplateSolidPrimaryFocus)
+}
+
+html[data-active-input=gamepad] body[data-theme=hc-aquatic] .GameCard-module__card___dU3jx:not([disabled])[data-gamepad-pressed=true] .GameCard-module__group___VMzkc {
+    border: 2px solid var(--gds-dividerOnBackplateSolidPrimaryFocus)
+}
+
+body[data-theme=hc-aquatic] .GameCard-module__card___dU3jx:not([disabled]):focus .GameCard-module__group___VMzkc {
+    border: 2px solid var(--gds-dividerOnBackplateSolidPrimaryPress)
+}
+
+body[data-theme=hc-aquatic] .GameCard-module__card___dU3jx:disabled .GameCard-module__group___VMzkc {
+    border: 2px solid var(--gds-dividerOnBackplateSolidPrimaryDisabled)
+}
+
+body[data-theme=hc-aquatic] .GameCard-module__card___dU3jx .GameCard-module__gameTitleInnerWrapper___t6Uuw {
+    background-color: var(--gds-backplateSolidPrimaryRest)
+}
+
+@media(any-hover: hover) {
+    body[data-theme=hc-aquatic] .GameCard-module__card___dU3jx:not([disabled]):hover .GameCard-module__gameTitleInnerWrapper___t6Uuw {
+        background-color:var(--gds-backplateSolidPrimaryHover)
+    }
+}
+
+body[data-theme=hc-aquatic] .GameCard-module__card___dU3jx:not([disabled]):focus .GameCard-module__gameTitleInnerWrapper___t6Uuw {
+    background-color: var(--gds-backplateSolidPrimaryFocus)
+}
+
+body[data-theme=hc-aquatic] .GameCard-module__card___dU3jx:not([disabled]):active .GameCard-module__gameTitleInnerWrapper___t6Uuw {
+    background-color: var(--gds-backplateSolidPrimaryPress)
+}
+
+html[data-active-input=gamepad] body[data-theme=hc-aquatic] .GameCard-module__card___dU3jx:not([disabled])[data-gamepad-pressed=true] .GameCard-module__gameTitleInnerWrapper___t6Uuw {
+    background-color: var(--gds-backplateSolidPrimaryPress)
+}
+
+body[data-theme=hc-aquatic] .GameCard-module__card___dU3jx:disabled .GameCard-module__gameTitleInnerWrapper___t6Uuw {
+    background-color: var(--gds-backplateSolidPrimaryDisabled)
+}
+
+body[data-theme=hc-aquatic] .GameCard-module__card___dU3jx .GameCard-module__gameTitle___2DpMV {
+    fill: var(--gds-contentOnBackplateSolidPrimaryRest);
+    color: var(--gds-contentOnBackplateSolidPrimaryRest)
+}
+
+@media(any-hover: hover) {
+    body[data-theme=hc-aquatic] .GameCard-module__card___dU3jx:not([disabled]):hover .GameCard-module__gameTitle___2DpMV {
+        fill:var(--gds-contentOnBackplateSolidPrimaryHover);
+        color: var(--gds-contentOnBackplateSolidPrimaryHover)
+    }
+}
+
+body[data-theme=hc-aquatic] .GameCard-module__card___dU3jx:not([disabled]):focus .GameCard-module__gameTitle___2DpMV {
+    fill: var(--gds-contentOnBackplateSolidPrimaryFocus);
+    color: var(--gds-contentOnBackplateSolidPrimaryFocus)
+}
+
+body[data-theme=hc-aquatic] .GameCard-module__card___dU3jx:not([disabled]):active .GameCard-module__gameTitle___2DpMV {
+    fill: var(--gds-contentOnBackplateSolidPrimaryPress);
+    color: var(--gds-contentOnBackplateSolidPrimaryPress)
+}
+
+html[data-active-input=gamepad] body[data-theme=hc-aquatic] .GameCard-module__card___dU3jx:not([disabled])[data-gamepad-pressed=true] .GameCard-module__gameTitle___2DpMV {
+    fill: var(--gds-contentOnBackplateSolidPrimaryPress);
+    color: var(--gds-contentOnBackplateSolidPrimaryPress)
+}
+
+body[data-theme=hc-aquatic] .GameCard-module__card___dU3jx:disabled .GameCard-module__gameTitle___2DpMV {
+    fill: var(--gds-contentOnBackplateSolidPrimaryDisabled);
+    color: var(--gds-contentOnBackplateSolidPrimaryDisabled)
+}
+
+body[data-theme=hc-desert] .GameCard-module__card___dU3jx .GameCard-module__group___VMzkc {
+    border: 2px solid var(--gds-dividerOnBackplateSolidPrimaryRest)
+}
+
+@media(any-hover: hover) {
+    body[data-theme=hc-desert] .GameCard-module__card___dU3jx:not([disabled]):hover .GameCard-module__group___VMzkc {
+        border:2px solid var(--gds-dividerOnBackplateSolidPrimaryHover)
+    }
+}
+
+body[data-theme=hc-desert] .GameCard-module__card___dU3jx:not([disabled]):active .GameCard-module__group___VMzkc {
+    border: 2px solid var(--gds-dividerOnBackplateSolidPrimaryFocus)
+}
+
+html[data-active-input=gamepad] body[data-theme=hc-desert] .GameCard-module__card___dU3jx:not([disabled])[data-gamepad-pressed=true] .GameCard-module__group___VMzkc {
+    border: 2px solid var(--gds-dividerOnBackplateSolidPrimaryFocus)
+}
+
+body[data-theme=hc-desert] .GameCard-module__card___dU3jx:not([disabled]):focus .GameCard-module__group___VMzkc {
+    border: 2px solid var(--gds-dividerOnBackplateSolidPrimaryPress)
+}
+
+body[data-theme=hc-desert] .GameCard-module__card___dU3jx:disabled .GameCard-module__group___VMzkc {
+    border: 2px solid var(--gds-dividerOnBackplateSolidPrimaryDisabled)
+}
+
+body[data-theme=hc-desert] .GameCard-module__card___dU3jx .GameCard-module__gameTitleInnerWrapper___t6Uuw {
+    background-color: var(--gds-backplateSolidPrimaryRest)
+}
+
+@media(any-hover: hover) {
+    body[data-theme=hc-desert] .GameCard-module__card___dU3jx:not([disabled]):hover .GameCard-module__gameTitleInnerWrapper___t6Uuw {
+        background-color:var(--gds-backplateSolidPrimaryHover)
+    }
+}
+
+body[data-theme=hc-desert] .GameCard-module__card___dU3jx:not([disabled]):focus .GameCard-module__gameTitleInnerWrapper___t6Uuw {
+    background-color: var(--gds-backplateSolidPrimaryFocus)
+}
+
+body[data-theme=hc-desert] .GameCard-module__card___dU3jx:not([disabled]):active .GameCard-module__gameTitleInnerWrapper___t6Uuw {
+    background-color: var(--gds-backplateSolidPrimaryPress)
+}
+
+html[data-active-input=gamepad] body[data-theme=hc-desert] .GameCard-module__card___dU3jx:not([disabled])[data-gamepad-pressed=true] .GameCard-module__gameTitleInnerWrapper___t6Uuw {
+    background-color: var(--gds-backplateSolidPrimaryPress)
+}
+
+body[data-theme=hc-desert] .GameCard-module__card___dU3jx:disabled .GameCard-module__gameTitleInnerWrapper___t6Uuw {
+    background-color: var(--gds-backplateSolidPrimaryDisabled)
+}
+
+body[data-theme=hc-desert] .GameCard-module__card___dU3jx .GameCard-module__gameTitle___2DpMV {
+    fill: var(--gds-contentOnBackplateSolidPrimaryRest);
+    color: var(--gds-contentOnBackplateSolidPrimaryRest)
+}
+
+@media(any-hover: hover) {
+    body[data-theme=hc-desert] .GameCard-module__card___dU3jx:not([disabled]):hover .GameCard-module__gameTitle___2DpMV {
+        fill:var(--gds-contentOnBackplateSolidPrimaryHover);
+        color: var(--gds-contentOnBackplateSolidPrimaryHover)
+    }
+}
+
+body[data-theme=hc-desert] .GameCard-module__card___dU3jx:not([disabled]):focus .GameCard-module__gameTitle___2DpMV {
+    fill: var(--gds-contentOnBackplateSolidPrimaryFocus);
+    color: var(--gds-contentOnBackplateSolidPrimaryFocus)
+}
+
+body[data-theme=hc-desert] .GameCard-module__card___dU3jx:not([disabled]):active .GameCard-module__gameTitle___2DpMV {
+    fill: var(--gds-contentOnBackplateSolidPrimaryPress);
+    color: var(--gds-contentOnBackplateSolidPrimaryPress)
+}
+
+html[data-active-input=gamepad] body[data-theme=hc-desert] .GameCard-module__card___dU3jx:not([disabled])[data-gamepad-pressed=true] .GameCard-module__gameTitle___2DpMV {
+    fill: var(--gds-contentOnBackplateSolidPrimaryPress);
+    color: var(--gds-contentOnBackplateSolidPrimaryPress)
+}
+
+body[data-theme=hc-desert] .GameCard-module__card___dU3jx:disabled .GameCard-module__gameTitle___2DpMV {
+    fill: var(--gds-contentOnBackplateSolidPrimaryDisabled);
+    color: var(--gds-contentOnBackplateSolidPrimaryDisabled)
+}
+
+.GameCard-module__children___-XxUd {
+    visibility: visible
+}
+
+.GameCard-module__group___VMzkc {
+    border-radius: 4px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.GameCard-module__gameTitleWrapper___Dy9yM,.GameCard-module__group___VMzkc {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end
+}
+
+.GameCard-module__gameTitleInnerWrapper___t6Uuw {
+    background-color: var(--gds-containerSemitransparentSemitransparentNonInteractive);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    max-height: 0;
+    overflow: hidden;
+    padding: 4px 8px;
+    transition: max-height .1s ease-in 0ms;
+    visibility: hidden;
+    width: 100%
+}
+
+.GameCard-module__gameTitle___2DpMV {
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    color: var(--gds-contentPrimary);
+    display: -webkit-box;
+    font-family: var(--gds-fontramp-body-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-body-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-body-lineHeight);
+    text-overflow: ellipsis;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: normal
+}
+
+.ShareButton-module__shareButton___uZ2CT {
+    max-width: 100%
+}
+
+.ContextualCardActions-module__container___yWReX {
+    position: relative
+}
+
+@media(hover: hover)and (pointer:fine) {
+    body[data-media-type=default] .ContextualCardActions-module__container___yWReX:hover .ContextualCardActions-module__optionsButton___BYXWY {
+        opacity:1
+    }
+}
+
+body[data-media-type=default] .ContextualCardActions-module__container___yWReX:hover .ContextualCardActions-module__optionsButton___BYXWY.ContextualCardActions-module__mouse___BdKYc {
+    opacity: 1
+}
+
+.ContextualCardActions-module__openAction___xGecw.ContextualCardActions-module__openAction___xGecw.ContextualCardActions-module__openAction___xGecw.ContextualCardActions-module__openAction___xGecw {
+    opacity: 1
+}
+
+.ContextualCardActions-module__optionsButton___BYXWY {
+    opacity: .00001;
+    right: 8px;
+    top: 8px
+}
+
+.ContextualCardActions-module__optionsButton___BYXWY.ContextualCardActions-module__optionsButton___BYXWY.ContextualCardActions-module__optionsButton___BYXWY.ContextualCardActions-module__optionsButton___BYXWY {
+    position: absolute
+}
+
+.SupportedInputsBadge-module__badge___5Ozze {
+    border-radius: 4px 0 4px 0;
+    bottom: 0;
+    position: absolute;
+    right: 0
+}
+
+.Header-module__bottomSpacing___ukzAm {
+    margin-bottom: 16px
+}
+
+body[data-media-type=tv] .Header-module__bottomSpacing___ukzAm {
+    margin-bottom: 24px
+}
+
+.Header-module__rowHeading___IRtdb {
+    color: var(--gds-contentPrimary);
+    font-family: var(--gds-fontramp-section3-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-section3-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-section3-lineHeight);
+    margin: 0
+}
+
+.Header-module__titleAndIconContainer___3eaeJ {
+    align-items: center;
+    display: flex;
+    flex-direction: row
+}
+
+.Header-module__titleIcon___UuXqx {
+    fill: var(--gds-contentPrimary);
+    margin: 0 8px 0 0
+}
+
+.Header-module__headerSeeAllContainer___HMtlz {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.Header-module__seeAll___jZboF {
+    display: none;
+    font-family: var(--gds-fontramp-body-fontFamily),Arial,Helvetica,sans-serif;
+    font-size: var(--gds-fontramp-body-fontSize);
+    font-weight: unset;
+    line-height: var(--gds-fontramp-body-lineHeight);
+    min-width: unset;
+    padding-left: 16px;
+    padding-right: 16px;
+    white-space: nowrap
+}
+
+@media (min-width: 480px) and (min-height:calc(480px + 1px)) {
+    .Header-module__seeAll___jZboF {
+        display:flex
+    }
+}
+
+body[data-media-type=tv] .Header-module__seeAll___jZboF {
+    display: none
+}
+
+/*# sourceMappingURL=83795.ab6dd83f.chunk.css.map*/

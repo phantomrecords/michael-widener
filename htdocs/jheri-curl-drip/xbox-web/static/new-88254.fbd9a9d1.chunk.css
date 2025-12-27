@@ -1,0 +1,55 @@
+:root[data-xds-user-color=default] {
+    --xds-user-color-accent-dark3: #002600;
+    --xds-user-color-accent-dark2: #003b11;
+    --xds-user-color-accent-dark1: #00551e;
+    --xds-user-color-accent: #008746;
+    --xds-user-color-accent-light1: #32a460;
+    --xds-user-color-accent-light2: #6fdc94;
+    --xds-user-color-accent-light3: #e0efe3;
+    --xds-user-color-gradient-start: #fff;
+    --xds-user-color-gradient-end: #fff;
+    --xds-user-color-gradient-spinner: conic-gradient(from 180deg at 50% 50%,#008746 0deg,rgba(0,135,70,0) 45deg,#008746 360deg);
+    --xds-user-color-glow-dark-edgewater: #fff;
+    --xds-user-color-glow-dark-start-1: hsla(0,0%,100%,.6);
+    --xds-user-color-glow-dark-start-2: hsla(0,0%,100%,.6);
+    --xds-user-color-glow-dark-start-3: hsla(0,0%,100%,.4);
+    --xds-user-color-glow-dark-end-1: hsla(0,0%,100%,.8);
+    --xds-user-color-glow-dark-end-2: hsla(0,0%,100%,.8);
+    --xds-user-color-glow-dark-end-3: hsla(0,0%,100%,.5);
+    --xds-user-color-glow-light-start-1: hsla(0,0%,100%,.6);
+    --xds-user-color-glow-light-start-2: hsla(0,0%,100%,.6);
+    --xds-user-color-glow-light-start-3: hsla(0,0%,100%,.4);
+    --xds-user-color-glow-light-end-1: hsla(0,0%,100%,.8);
+    --xds-user-color-glow-light-end-2: hsla(0,0%,100%,.8);
+    --xds-user-color-glow-light-end-3: hsla(0,0%,100%,.5);
+    --xds-user-color-states-dark-background-rest: #007738;
+    --xds-user-color-states-dark-background-hover: #008746;
+    --xds-user-color-states-dark-background-press: rgba(0,135,70,.6);
+    --xds-user-color-states-dark-background-focus: #008746;
+    --xds-user-color-states-dark-background-focus-and-hover: #008746;
+    --xds-user-color-states-dark-background-focus-and-press: rgba(0,135,70,.6);
+    --xds-user-color-states-dark-background-inactive: rgba(0,119,56,.4);
+    --xds-user-color-states-dark-border-rest: #008746;
+    --xds-user-color-states-dark-border-hover: #008746;
+    --xds-user-color-states-dark-border-press: rgba(0,135,70,.6);
+    --xds-user-color-states-dark-border-focus: #008746;
+    --xds-user-color-states-dark-border-focus-and-hover: #008746;
+    --xds-user-color-states-dark-border-focus-and-press: rgba(0,135,70,.6);
+    --xds-user-color-states-dark-border-inactive: rgba(0,135,70,0);
+    --xds-user-color-states-light-background-rest: #008746;
+    --xds-user-color-states-light-background-hover: #007738;
+    --xds-user-color-states-light-background-press: rgba(0,119,56,.6);
+    --xds-user-color-states-light-background-focus: #007738;
+    --xds-user-color-states-light-background-focus-and-hover: #007738;
+    --xds-user-color-states-light-background-focus-and-press: rgba(0,119,56,.6);
+    --xds-user-color-states-light-background-inactive: rgba(0,135,70,.4);
+    --xds-user-color-states-light-border-rest: #007738;
+    --xds-user-color-states-light-border-hover: #007738;
+    --xds-user-color-states-light-border-press: rgba(0,119,56,.6);
+    --xds-user-color-states-light-border-focus: #007738;
+    --xds-user-color-states-light-border-focus-and-hover: #007738;
+    --xds-user-color-states-light-border-focus-and-press: rgba(0,119,56,.6);
+    --xds-user-color-states-light-border-inactive: rgba(0,119,56,0)
+}
+
+/*# sourceMappingURL=88254.fbd9a9d1.chunk.css.map*/
