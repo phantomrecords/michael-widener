@@ -1,0 +1,42 @@
+<?php
+declare(strict_types=1);
+
+require_once __DIR__ . '/../auth.php';
+
+$logged_in = is_logged_in();
+
+// back/forward (JS-less)
+$back_href = nav_back_href('/');
+$fwd_href  = nav_forward_href('/'); // stays "/" unless you later implement forward tracking
+
+$current = $_SERVER['REQUEST_URI'] ?? '/';
+if (!is_string($current) || $current === '') $current = '/';
+
+if ($logged_in) {
+    $auth_href = '/logout/?next=' . rawurlencode($current);
+    $auth_text = 'Logout';
+} else {
+    $auth_href = '/login/?next=' . rawurlencode($current);
+    $auth_text = 'Login';
+}
+?>
+
+<?php if (has_role('Owner','Investigator','Attorney','Accountant','Police Officer','Sheriff','Security Guard')): ?>
+  | <a href="/legal/">Legal</a>
+<?php endif; ?>
+
+<?php if (has_role('Owner','Contractor')): ?>
+  | <a href="/portfolio/">Portfolio</a>
+<?php endif; ?>
+
+<p class="subtitle">
+  <a href="/">&uarr;</a> |
+  <a href="<?php echo htmlspecialchars($back_href, ENT_QUOTES); ?>">←</a> |
+  <a href="/">Home</a> |
+  <a href="<?php echo htmlspecialchars($fwd_href, ENT_QUOTES); ?>">→</a> |
+  <a href="/help/">?</a> |
+  <a href="/account/">╭ ACCOUNT ╮</a> |
+  <a href="<?php echo htmlspecialchars($auth_href, ENT_QUOTES); ?>">
+    <?php echo htmlspecialchars($auth_text, ENT_QUOTES); ?>
+  </a>
+</p>

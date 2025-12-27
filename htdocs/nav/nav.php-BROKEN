@@ -1,0 +1,23 @@
+<nav class="subtitle" aria-label="Site navigation">
+  <a href="/">&uarr;</a>
+  <span aria-hidden="true"> | </span>
+
+  <a href="<?php echo htmlspecialchars(nav_back_href('/'), ENT_QUOTES); ?>">←</a>
+  <span aria-hidden="true"> | </span>
+
+  <a href="/">Home</a>
+  <span aria-hidden="true"> | </span>
+
+  <a href="<?php echo htmlspecialchars(nav_forward_href('/'), ENT_QUOTES); ?>">→</a>
+  <span aria-hidden="true"> | </span>
+
+  <a href="/help/">?</a>
+  <span aria-hidden="true"> | </span>
+
+  <a href="/account/">╭ ACCOUNT ╮</a>
+  <span aria-hidden="true"> | </span>
+
+  <a href="<?php echo htmlspecialchars($auth_href, ENT_QUOTES); ?>">
+    <?php echo htmlspecialchars($auth_text, ENT_QUOTES); ?>
+  </a>
+</nav>

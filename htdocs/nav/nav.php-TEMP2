@@ -1,0 +1,27 @@
+<?php
+declare(strict_types=1);
+
+// Load auth helpers (must exist at /auth.php in site root)
+require_once __DIR__ . '/../auth.php';
+
+$logged_in = function_exists('is_logged_in') ? is_logged_in() : false;
+
+// JS-less back/forward if your auth.php provides these functions.
+// Fallbacks are safe.
+$back_href = function_exists('nav_back_href') ? nav_back_href('/') : '/';
+$fwd_href  = function_exists('nav_forward_href') ? nav_forward_href('/') : '/';
+
+$auth_href = $logged_in ? '/logout/?next=/' : '/login/?next=' . rawurlencode($_SERVER['REQUEST_URI'] ?? '/');
+$auth_text = $logged_in ? 'Logout' : 'Login';
+?>
+<p class="subtitle">
+  <a target="_parent" href="/">&uarr;</a> |
+  <a href="<?php echo htmlspecialchars($back_href, ENT_QUOTES); ?>">←</a> |
+  <a href="/">Home</a> |
+  <a href="<?php echo htmlspecialchars($fwd_href, ENT_QUOTES); ?>">→</a> |
+  <a href="/help/">?</a> |
+  <a href="/account/">╭ ACCOUNT ╮</a> |
+  <a href="<?php echo htmlspecialchars($auth_href, ENT_QUOTES); ?>">
+    <?php echo htmlspecialchars($auth_text, ENT_QUOTES); ?>
+  </a>
+</p>
