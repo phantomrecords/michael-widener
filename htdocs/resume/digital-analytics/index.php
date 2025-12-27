@@ -1,8 +1,17 @@
 <?php
 declare(strict_types=1);
-session_start();
-if (empty($_SESSION['hc_logged_in']) || $_SESSION['hc_logged_in'] !== true) {
-    header('Location: /resume/');
+
+require_once __DIR__ . '/../../auth.php';
+require_login('/resume/');
+
+$html = __DIR__ . '/Digital-Analytics-Senior-Analyst.html';
+if (is_file($html) && is_readable($html)) {
+    header('Content-Type: text/html; charset=UTF-8');
+    readfile($html);
     exit;
 }
-?>
+
+http_response_code(404);
+header('Content-Type: text/plain; charset=UTF-8');
+echo "Not found.";
+

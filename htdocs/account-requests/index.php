@@ -399,14 +399,14 @@ Key: <?php echo h($ROOT . '/.hc_secret_key'); ?></div>
         <tr><th>Submitted</th><td><?php echo h((string)($view_record['created_at'] ?? '')); ?></td></tr>
       </table>
 
-      <form method="post" action="/account-requests/">
+      <form method="post" action="<?php echo h(site_url('/account-requests/')); ?>">
         <input type="hidden" name="csrf" value="<?php echo h($csrf); ?>">
         <input type="hidden" name="token" value="<?php echo h($view_token); ?>">
 
         <div class="btnrow">
           <button type="submit" name="action" value="approve">Approve</button>
           <button type="submit" name="action" value="deny">Deny</button>
-          <a class="btn" href="/account-requests/">Back to list</a>
+          <a class="btn" href="<?php echo h(site_url('/account-requests/')); ?>">Back to list</a>
         </div>
       </form>
 
@@ -432,7 +432,7 @@ Key: <?php echo h($ROOT . '/.hc_secret_key'); ?></div>
                 <td><?php echo h((string)$it['created_at']); ?></td>
                 <td><?php echo h((string)$it['account_id']); ?></td>
                 <td><?php echo h((string)$it['role']); ?></td>
-                <td><a href="/account-requests/?t=<?php echo h((string)$it['token']); ?>"><?php echo h((string)$it['token']); ?></a></td>
+                <td><a href="<?php echo h(site_url('/account-requests/?t=' . rawurlencode((string)$it['token']))); ?>"><?php echo h((string)$it['token']); ?></a></td>
               </tr>
             <?php endforeach; ?>
           </tbody>
