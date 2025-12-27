@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Golden Healing Waves – Existing Page Canvas</title>
+  <style>
+    :root{
+      --bg-dark:#0f1a14;          /* deep green-black */
+      --bg-mid:#1c2a22;           /* mid green */
+      --gold-1:#fef3c7;           /* light sun */
+      --gold-2:#fde68a;           /* soft gold */
+      --gold-3:#f59e0b;           /* warm amber */
+      --hot-pink:#ff1f6c;         /* edge accent from source outline */
+    }
+    html,body{height:100%;margin:0;background:linear-gradient(180deg,var(--bg-dark),var(--bg-mid) 60%,var(--bg-dark));font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#e6f1ea}
+    .stage{position:relative;min-height:100vh;display:grid;place-items:center;overflow:hidden}
+
+    /* --- BACKGROUND BOKEH to mimic out-of-focus leaves --- */
+    .bokeh{
+      position:absolute;inset:-20vh -20vw;pointer-events:none;filter:blur(30px) saturate(110%) brightness(90%);
+      background:
+        radial-gradient(1200px 800px at 70% 30%, #18261f 0 40%, transparent 60%),
+        radial-gradient(900px 700px at 25% 75%, #22382c 0 45%, transparent 65%),
+        radial-gradient(700px 600px at 80% 80%, #1a2c23 0 35%, transparent 60%),
+        radial-gradient(600px 500px at 15% 30%, #203329 0 40%, transparent 65%),
+        linear-gradient(180deg,#0e1a14, #1b2a22);
+      opacity:.9;
+      animation:bgFloat 18s ease-in-out infinite;
+    }
+    @keyframes bgFloat{0%,100%{transform:translate3d(0,0,0) scale(1)}50%{transform:translate3d(0,-2%,0) scale(1.02)}}
+
+    /* --- TITLE --- */
+    header{position:absolute;top:16px;left:50%;transform:translateX(-50%);font-weight:600;letter-spacing:.5px;opacity:.85}
+
+    /* --- MASKED WAVES using your PNG outline --- */
+    .masked-waves{position:relative;width:min(1100px,85vw);aspect-ratio:16/9;}
+    .wave{position:absolute;inset:0;background:
+        radial-gradient(120% 120% at 30% 50%, var(--gold-1), transparent 55%),
+        radial-gradient(120% 120% at 60% 60%, var(--gold-2), transparent 60%),
+        radial-gradient(120% 120% at 50% 50%, var(--gold-3), transparent 60%);
+      -webkit-mask-image:url('./FOR-AI-Rays-of-Sound-Waves.png'); /* ⬅︎ drop your file beside this HTML */
+      -webkit-mask-repeat:no-repeat;
+      -webkit-mask-size:contain;
+      -webkit-mask-position:center bottom;  
+      mask-image:url('./FOR-AI-Rays-of-Sound-Waves.png');
+      mask-repeat:no-repeat;mask-size:contain;mask-position:center bottom;
+      filter:drop-shadow(0 0 12px var(--gold-2)) drop-shadow(0 0 28px var(--gold-3));
+      opacity:.92;
+      animation: shimmer 4.5s linear infinite, pulse 3.2s ease-in-out infinite alternate, breathe 8s ease-in-out infinite;
+    }
+    /* duplicate layers with offsets for depth */
+    .wave.layer2{opacity:.65;transform:translateY(2%);filter:blur(1px) drop-shadow(0 0 20px var(--gold-2));animation-delay:.6s}
+    .wave.layer3{opacity:.35;transform:translateY(4%);filter:blur(2px) drop-shadow(0 0 26px var(--gold-3));animation-delay:1.2s}
+
+    @keyframes shimmer{0%{background-position:0% 50%}100%{background-position:200% 50%}}
+    @keyframes pulse{0%{filter:blur(0) drop-shadow(0 0 10px var(--gold-2)) drop-shadow(0 0 12px var(--gold-3))}
+                     100%{filter:blur(1px) drop-shadow(0 0 25px var(--gold-2)) drop-shadow(0 0 45px var(--gold-3))}}
+    @keyframes breathe{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-1%) scale(1.015)}}
+
+    /* --- SVG FALLBACK (if the PNG mask is missing) --- */
+    .svg-fallback{position:absolute;inset:0}
+    .svg-fallback path{
+      fill:none;stroke:var(--gold-2);stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 0 12px var(--gold-2));
+      animation: strokePulse 2.8s ease-in-out infinite;
+    }
+    .svg-fallback path.glow{stroke:var(--gold-1);opacity:.6;filter:blur(1px) drop-shadow(0 0 26px var(--gold-1));animation-duration:3.2s}
+    .svg-fallback path.core{stroke:var(--gold-3);opacity:.95;animation-duration:2.4s}
+    @keyframes strokePulse{0%,100%{stroke-width:10;opacity:.7}50%{stroke-width:18;opacity:1}}
+
+    /* --- helper controls --- */
+    .controls{position:absolute;bottom:16px;left:50%;transform:translateX(-50%);background:rgba(15,26,20,.55);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.09);border-radius:12px;padding:8px 12px;display:flex;gap:12px;align-items:center}
+    .controls input[type=range]{width:200px}
+    .badge{border-radius:999px;background:linear-gradient(90deg,var(--gold-2),var(--gold-3));color:#512c00;padding:6px 12px;font-weight:700}
+  </style>
+</head>
+<body>
+  <div class="stage">
+    <div class="bokeh" aria-hidden="true"></div>
+    <header>
+      <span class="badge">Golden Sound • Healing Waves</span>
+    </header>
+
+    <div class="masked-waves" id="waves">
+      <!-- Masked layers using your PNG outline (place your FOR-AI-Rays-of-Sound-Waves.png next to this file) -->
+      <div class="wave layer1"></div>
+      <div class="wave layer2"></div>
+      <div class="wave layer3"></div>
+
+      <!-- SVG fallback in case the mask image isn't available -->
+      <svg class="svg-fallback" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+        <!-- Three arcing waves sweeping from right to left -->
+        <path class="core" d="M1500 700 C 1200 680, 900 760, 500 840" />
+        <path class="glow" d="M1520 620 C 1180 650, 860 720, 420 800" />
+        <path d="M1460 790 C 1160 760, 820 820, 540 880" />
+      </svg>
+    </div>
+
+    <div class="controls">
+      <label>Intensity <input id="intensity" type="range" min="0.5" max="1.75" step="0.01" value="1" /></label>
+      <label>Breath <input id="breath" type="range" min="6" max="14" step="0.1" value="8" /></label>
+    </div>
+  </div>
+
+  <script>
+    const intensity = document.getElementById('intensity');
+    const breath = document.getElementById('breath');
+    const root = document.documentElement;
+
+    intensity.addEventListener('input', e => {
+      // scale overall brightness via CSS variables
+      const v = parseFloat(e.target.value);
+      // tweak gold ramps
+      root.style.setProperty('--gold-1', `hsl(48 96% ${Math.min(95, 80*v)}%)`);
+      root.style.setProperty('--gold-2', `hsl(46 97% ${Math.min(85, 70*v)}%)`);
+      root.style.setProperty('--gold-3', `hsl(40 90% ${Math.min(55, 40*v)}%)`);
+      document.querySelectorAll('.wave').forEach(w => w.style.opacity = Math.min(1, 0.6 + v*0.35));
+    });
+
+    breath.addEventListener('input', e => {
+      const dur = parseFloat(e.target.value);
+      document.querySelectorAll('.wave').forEach(w => w.style.animationDuration = `4.5s, 3.2s, ${dur}s`);
+    });
+  </script>
+</body>
+</html>
