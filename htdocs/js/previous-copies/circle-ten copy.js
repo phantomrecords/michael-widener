@@ -1,0 +1,19 @@
+$(document).ready(function(){
+    $("#nih-top-image").click(function(){
+        $("#nih img.top").toggleClass("transparent");
+        $("#soundtrack1")[0].pause();
+        $("#soundtrack2")[0].pause();
+        $("#soundtrack3")[0].pause();
+        $("#soundtrack4")[0].pause();
+        $("#soundtrack5")[0].pause();
+        $("#soundtrack6")[0].pause();
+        $("#soundtrack7")[0].pause();
+        $("#soundtrack8")[0].pause();
+        $("#soundtrack9")[0].pause();
+        $("#soundtrack10v2")[0].play();
+        $("#soundtrack11")[0].pause();
+    });
+$("#nih-top-image").dblclick(function(){
+    $("#soundtrack10v2")[0].pause();
+    });
+});

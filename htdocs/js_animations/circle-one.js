@@ -1,0 +1,19 @@
+$(document).ready(function(){
+    $("#cps-top-image").click(function(){
+        $("#cps img.top").toggleClass("transparent");
+        $("#soundtrack1")[0].play();
+        $("#soundtrack2")[0].pause();
+        $("#soundtrack3")[0].pause();
+        $("#soundtrack4")[0].pause();
+        $("#soundtrack5")[0].pause();
+        $("#soundtrack6")[0].pause();
+        $("#soundtrack7")[0].pause();
+        $("#soundtrack8")[0].pause();
+        $("#soundtrack9")[0].pause();
+        $("#soundtrack10")[0].pause();
+        $("#soundtrack11")[0].pause();
+    });
+$("#cps-top-image").dblclick(function(){
+    $("#soundtrack1")[0].pause();
+    });
+});

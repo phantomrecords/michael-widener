@@ -1,0 +1,252 @@
+#  Robot-Manager was used to generate this file.
+#  Copyright (c) 2001-2002 by Sophtware.com, Inc.  All Rights Reserved.
+#  http://www.websitemanagementtools.com/
+
+#  PARTIAL access (Google)
+#  NO access (Google)
+User-agent: Googlebot
+Allow: /
+
+Disallow: /mary-lee/
+Disallow: /_documents/mary-lee/
+Disallow: /michael-widener/mary-lee/
+
+Disallow: /alina
+Disallow: /design-portfolio/
+Disallow: /web-coder-pro/
+
+Disallow: /design-portfolio/
+Disallow: /web-coder-pro/
+
+Disallow: /ssa/
+Disallow: /_documents/
+Disallow: /_dogwood-source/
+Disallow: /_files-to-print/
+Disallow: /_htaccess-test/
+Disallow: /_pgbackup/
+Disallow: /_retired-documents/
+Disallow: /_sandbox/
+Disallow: /_temporary-files/
+Disallow: /-/
+Disallow: /Backup-Of-This-Design-Portfolio-WHEN-It-Was-A-WordPress-Site/
+
+Disallow: /-blank-template/
+Disallow: /-documents/
+Disallow: /-Documents_NewDocuments/
+
+Disallow: /stephen-widener/
+Disallow: /-stephen-widener/
+Disallow: /-stephen-widener-copy/
+
+Disallow: /.sucuriquantine/
+
+Disallow: /@terry-wolf/
+Disallow: /article/
+Disallow: /cgi-bin/
+Disallow: /chase-bank/
+
+Disallow: /css/
+Disallow: /css-alt/
+Disallow: /documents/
+Disallow: /dream-girl/
+Disallow: /dream-singles/
+Disallow: /dream-single/
+Disallow: /font-awesome-4.1.0/
+Disallow: /girl-bullies/
+
+Disallow: /hanleywood/
+Disallow: /high-definition-wireframes/
+Disallow: /high-fidelity-wireframes-copyrighted/
+Disallow: /images/
+Disallow: /img/
+
+Disallow: /img_animations/
+Disallow: /index_old-versions/
+Disallow: /index-_Backups/
+Disallow: /index-_DeveloperTests/
+
+Disallow: /index-_New-Versions/
+Disallow: /index-backups/
+Disallow: /indylogix/
+Disallow: /job.descriptions.1/
+Disallow: /job.descriptions.2/
+Disallow: /js/
+Disallow: /js_animatoins/
+Disallow: /logo/
+
+Disallow: /low-definition-wireframes/
+Disallow: /mandickulus/
+Disallow: /media/
+
+Disallow: /michael-widener/
+Disallow: /prefixfree/
+Disallow: /resi/
+
+Disallow: /wireframes/
+Disallow: /working-code/
+Disallow: /yuexuce.shop/
+
+
+#  PARTIAL access (Google Image)
+#  NO access (Google Image)
+User-agent: Googlebot-Image
+Allow: /
+
+Disallow: /mary-lee/
+Disallow: /_documents/mary-lee/
+Disallow: /michael-widener/mary-lee/
+
+Disallow: /alina
+Disallow: /design-portfolio/
+Disallow: /web-coder-pro/
+
+Disallow: /design-portfolio/
+Disallow: /web-coder-pro/
+
+Disallow: /_documents/
+Disallow: /_dogwood-source/
+Disallow: /_files-to-print/
+Disallow: /_htaccess-test/
+Disallow: /_pgbackup/
+Disallow: /_retired-documents/
+Disallow: /_sandbox/
+Disallow: /_temporary-files/
+Disallow: /-/
+Disallow: /Backup-Of-This-Design-Portfolio-WHEN-It-Was-A-WordPress-Site/
+
+Disallow: /-blank-template/
+Disallow: /-documents/
+Disallow: /-Documents_NewDocuments/
+
+Disallow: /stephen-widener/
+Disallow: /-stephen-widener/
+Disallow: /-stephen-widener-copy/
+
+Disallow: /.sucuriquantine/
+
+Disallow: /@terry-wolf/
+Disallow: /article/
+Disallow: /cgi-bin/
+Disallow: /chase-bank/
+
+Disallow: /css/
+Disallow: /css-alt/
+Disallow: /documents/
+Disallow: /dream-girl/
+Disallow: /dream-singles/
+Disallow: /dream-single/
+Disallow: /font-awesome-4.1.0/
+Disallow: /girl-bullies/
+
+Disallow: /hanleywood/
+Disallow: /high-definition-wireframes/
+Disallow: /high-fidelity-wireframes-copyrighted/
+Disallow: /images/
+Disallow: /img/
+
+Disallow: /img_animations/
+Disallow: /index_old-versions/
+Disallow: /index-_Backups/
+Disallow: /index-_DeveloperTests/
+
+Disallow: /index-_New-Versions/
+Disallow: /index-backups/
+Disallow: /indylogix/
+Disallow: /job.descriptions.1/
+Disallow: /job.descriptions.2/
+Disallow: /js/
+Disallow: /js_animatoins/
+Disallow: /logo/
+
+Disallow: /low-definition-wireframes/
+Disallow: /mandickulus/
+Disallow: /media/
+
+Disallow: /michael-widener/
+Disallow: /prefixfree/
+Disallow: /resi/
+
+Disallow: /wireframes/
+Disallow: /working-code/
+Disallow: /yuexuce.shop/
+
+
+#  PARTIAL access (All Spiders)
+#  NO access (All Spiders)
+User-agent: *
+Allow: /
+
+Disallow: /mary-lee/
+Disallow: /_documents/mary-lee/
+Disallow: /michael-widener/mary-lee/
+
+Disallow: /alina
+Disallow: /design-portfolio/
+Disallow: /web-coder-pro/
+
+Disallow: /_documents/
+Disallow: /_dogwood-source/
+Disallow: /_files-to-print/
+Disallow: /_htaccess-test/
+Disallow: /_pgbackup/
+Disallow: /_retired-documents/
+Disallow: /_sandbox/
+Disallow: /_temporary-files/
+Disallow: /-/
+Disallow: /Backup-Of-This-Design-Portfolio-WHEN-It-Was-A-WordPress-Site/
+
+Disallow: /-blank-template/
+Disallow: /-documents/
+Disallow: /-Documents_NewDocuments/
+
+Disallow: /stephen-widener/
+Disallow: /-stephen-widener/
+Disallow: /-stephen-widener-copy/
+
+Disallow: /.sucuriquantine/
+
+Disallow: /@terry-wolf/
+Disallow: /article/
+Disallow: /cgi-bin/
+Disallow: /chase-bank/
+
+Disallow: /css/
+Disallow: /css-alt/
+Disallow: /documents/
+Disallow: /dream-girl/
+Disallow: /dream-singles/
+Disallow: /dream-single/
+Disallow: /font-awesome-4.1.0/
+Disallow: /girl-bullies/
+
+Disallow: /hanleywood/
+Disallow: /high-definition-wireframes/
+Disallow: /high-fidelity-wireframes-copyrighted/
+Disallow: /images/
+Disallow: /img/
+
+Disallow: /img_animations/
+Disallow: /index_old-versions/
+Disallow: /index-_Backups/
+Disallow: /index-_DeveloperTests/
+
+Disallow: /index-_New-Versions/
+Disallow: /index-backups/
+Disallow: /indylogix/
+Disallow: /job.descriptions.1/
+Disallow: /job.descriptions.2/
+Disallow: /js/
+Disallow: /js_animatoins/
+Disallow: /logo/
+
+Disallow: /low-definition-wireframes/
+Disallow: /mandickulus/
+Disallow: /media/
+
+Disallow: /michael-widener/
+Disallow: /prefixfree/
+Disallow: /resi/
+
+Disallow: /wireframes/
+Disallow: /working-code/
+Disallow: /yuexuce.shop/

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Michael Widener II — Digital Design & Development</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light only">
+
+  <style>
+    :root { --maxw: 820px; }
+    html, body { margin:0; padding:0; background:#fff; color:#000; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Noto Sans", sans-serif;
+      line-height:1.55;
+    }
+    .page { max-width: var(--maxw); margin: 2rem auto 3rem; padding: 0 1rem; }
+    header h1 { font-size: 2rem; margin: 0 0 .35rem 0; font-weight: 700; letter-spacing: .2px; }
+    .subtitle { margin: 0 0 1rem; font-size: 1.1rem; }
+    .rule { border: 0; border-top: 1px solid #000; margin: 1rem 0; }
+    h2 { font-size: 1.15rem; margin: 1.5rem 0 .6rem; padding-bottom: .25rem; border-bottom: 1px solid #000; }
+    p { margin: .35rem 0 .75rem; }
+    ul { margin: .25rem 0 .9rem 1.2rem; padding: 0; }
+    li { margin: .25rem 0; }
+    a { color: inherit; text-decoration: underline; }
+    .note, .policy {
+      border: 1px solid #000;
+      padding: .65rem .75rem;
+      margin: 1rem 0 1.25rem;
+      font-size: .96rem;
+    }
+
+    /* Tile section */
+    .tiles {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin: 1rem 0 1.5rem;
+    }
+    .tile {
+      border: 1px solid #000;
+      flex: 1 1 calc(50% - 1rem);
+      text-align: center;
+      padding: 1.2rem .8rem;
+      transition: background 0.2s, color 0.2s;
+    }
+    .tile:hover {
+      background: #000;
+      color: #fff;
+    }
+    .tile h3 {
+      margin: 0 0 .3rem;
+      font-size: 1.05rem;
+    }
+    .tile p {
+      margin: 0;
+      font-size: .9rem;
+    }
+
+    footer { margin-top: 2rem; border-top: 1px solid #000; padding-top: 1rem; font-size: .92rem; text-align: center; }
+
+    @media print {
+      @page { margin: 0.6in; }
+      a[href]:after { content: " (" attr(href) ")"; font-size: 0.9em; }
+      .tiles { display: block; }
+      .tile { margin-bottom: 1rem; border: 1px solid #000; padding: .8rem; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+    <header>
+      <h1>Michael Widener II</h1>
+      <p class="subtitle">Digital Résumé Repository</p>
+      <hr class="rule" />
+<!--      <div class="note">
+        <strong>Contact Policy:</strong> I maintain active professional profiles on several recruiting platforms, including 
+        <a href="https://www.indeed.com" target="_blank" rel="noopener">Indeed.com</a> and 
+        <a href="https://linkedin.com/in/michael-widener-ii" target="_blank" rel="noopener">LinkedIn</a>. However I apply directly via the employer or employment entity's guidance. I do not sign Rights of Representation with Recruiters and then pitch my employment to employers for a commission. This approach has not produced successful employment for me. It is too costly for employers in my experience.
+		
+      </div> -->
+    </header>
+
+    <section id="overview">
+      <h2>Overview</h2>
+      <p>
+        I hold a <strong>Bachelor of Science in Digital Design &amp; Development (accredited as Multimedia Design &amp; Development)</strong>.
+        My background bridges visual communication, web technology, and analytical precision. 
+        I specialize in transforming creative ideas into measurable, data-driven results.
+      </p>
+    </section>
+
+    <section id="roles">
+      <h2>Roles That Fit My Background</h2>
+      <div class="tiles">
+        <a class="tile" href="./resume/Dating-Website-Researcher.html">
+          <h3>Dating Website Researcher</h3>
+          <p>UX Research • Platform Analysis • Front-End Prototyping</p>
+        </a>
+
+        <a class="tile" href="./resume/Digital-Analytics-Senior-Analyst.html">
+          <h3>Digital Analytics Senior Analyst</h3>
+          <p>Data-driven experimentation, Adobe Analytics, and optimization strategy.</p>
+        </a>
+
+<a class="tile" href="./resume/Office-Technician.html">
+  <h3>Office Technician (Typing)</h3>
+  <p>Clerical Support • Timekeeping • Records Management</p>
+</a>
+
+
+<a class="tile" href="./resume/Shelter-Computer-Lab-Tech.html">
+  <h3>Shelter Computer Lab Technician</h3>
+  <p>Computer Lab Support • Digital Literacy Assistance • Community Service</p>
+</a>
+
+
+        <a class="tile" href="./resume/Shelter-Kitchen-Dishwasher.html">
+          <h3>Shelter Kitchen Dishwasher</h3>
+          <p>Kitchen support, sanitation, and service in shelter environments.</p>
+        </a>
+
+
+<a class="tile" href="./resume/Virtual-Personal-Assistant.html">
+  <h3>Virtual Personal Assistant (Remote)</h3>
+  <p>Remote scheduling, communication, and task coordination support.</p>
+</a>
+
+
+        <a class="tile" href="./resume/Web-Designer-Developer.html">
+          <h3>Web Designer / Developer</h3>
+          <p>Responsive interfaces, UX design, and front-end engineering.</p>
+        </a>
+
+      </div>
+
+
+
+      <p>
+        Each role listed above links to a detailed résumé describing my qualifications and experience in that area.
+        As my career expands, I will continue to add roles that align with my skill set and professional direction.
+      </p>
+    </section>
+
+    <section id="career-path">
+      <h2>Career Path &amp; Education</h2>
+      <p>
+        My career unites design and analytics across multiple industries. From early multimedia development to data-driven
+        web experience strategy, I’ve built digital systems that communicate clearly, scale efficiently, and deliver quantifiable results. 
+        My academic foundation in Digital Design &amp; Development enables me to work fluently between creative ideation and technical execution.
+      </p>
+    </section>
+
+    <section id="ai-policy">
+      <h2>AI Policy</h2>
+      <p>
+        I work directly with Artificial Intelligence to manage a higher volume of work with greater accuracy. 
+        AI does not alter my message, my creativity, or the originality of my ideas—it simply accelerates the execution. 
+        Routine tasks such as converting documents between Word, PDF, and web formats (HTML/CSS) are delegated to AI under my instruction,
+        allowing me to focus on design, strategy, and quality. By integrating AI as a precision tool rather than a substitute for thought,
+        I’ve quadrupled my productivity while maintaining full authorship of every project.
+      </p>
+    </section>
+
+<!-- 
+    <section id="ai-integration">
+      <h2>AI Integration &amp; Mastery</h2>
+      <p>
+        Over the past several years, I’ve worked daily with AI systems like ChatGPT to refine, automate, and enhance my design, analytics, 
+        and documentation workflows. My ongoing conversation history spans thousands of exchanges—effectively a multi-year collaboration 
+        that mirrors professional mentorship. I use AI as both a creative and analytical assistant: to prototype web designs, validate data logic, 
+        explore visual storytelling ideas, and draft professional communications. This extensive experience shows employers that I’m not just 
+        familiar with AI—I’m fluent in integrating it as a tool for efficiency, creativity, and decision-support in real-world projects.
+      </p>
+    </section>
+
+
+    <section id="recruiter-access" class="block">
+      <h2>Recruiter Access</h2>
+      <p class="small">
+        I work with third-party recruiters exclusively via Indeed.com or LinkedIn.com:<br>
+        <a href="https://indeed.com/" target="_self" rel="noopener">https://indeed.com</a><br>
+        <a href="https://linkedin.com/in/michael-widener-ii" target="_self" rel="noopener">https://linkedin.com/in/michael-widener-ii</a>
+      </p>
+    </section>
+
+    <section id="contact-policy" class="block">
+      <h2>Contact Policy</h2>
+      <p class="small">
+        I apply to open roles directly with the employer. I am not represented by a recruiter. If I work with a third-party recruiter, a commisssioned head-hunter not working for the employer (but wishing to secure a Right to Represent Agreement directly with me and then present me to their employer-client), I exclusively work with that complicated scenario via LinkedIn or Indeed.com. I do not respond to third-party recruiter solitication in any other way.
+      </p>
+    </section>
+
+    <section id="application-policy" class="block">
+      <h2>Application Policy</h2>
+      <p class="small">
+        I am applying to matching roles and I do not apply with competing recruiters for the same role. All recruiting
+        must go through my LinkedIn so I can enforce first-mover, first-insight advantage—my way of rewarding recruiters
+        who recognize my value before others approach. The world isn’t perfectly fair, but we can carve out small slices
+        of fairness — and this is mine.
+      </p>
+    </section>
+
+-->
+
+    <footer>
+      <p style="color: transparent;">&copy; 2025 Michael Widener II | Direct Web Call: <a class="button" href="tel:+15108597725">***.859.7725</a></p>
+    </footer>
+  </div>
+</body>
+</html>

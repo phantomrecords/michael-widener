@@ -1,0 +1,19 @@
+$(document).ready(function(){
+    $("#anim2-top-image").click(function(){
+        $("#anim2 img.top").toggleClass("transparent");
+        $("#soundtrack1")[0].pause();
+        $("#soundtrack2")[0].play();
+        $("#soundtrack3")[0].pause();
+        $("#soundtrack4")[0].pause();
+        $("#soundtrack5")[0].pause();
+        $("#soundtrack6")[0].pause();
+        $("#soundtrack7")[0].pause();
+        $("#soundtrack8")[0].pause();
+        $("#soundtrack9")[0].pause();
+        $("#soundtrack10")[0].pause();
+        $("#soundtrack11")[0].pause();
+    });
+$("#anim2-top-image").dblclick(function(){
+    $("#soundtrack2")[0].pause();
+    });
+});

@@ -1,0 +1,49 @@
+<!--
+
+
+<!-- Portfolio Grid Section -->
+        <section id="portfolio" class="bg-light-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Portfolio</h2>
+                        <h3 class="section-subheading text-muted">Check out my work and skill set.</h3>
+                    </div>
+                </div>
+                <div class="row">
+
+
+                    <div class="col-md-4 col-sm-6 portfolio-item"> 
+                        
+                            <img src="./img/html5-thumb.jpg" class="img-responsive" alt="HTML5 thumnail">                             
+
+                        <div class="portfolio-caption">
+                            <h4 style="display: block;">HTML5/CSS3/JavaScript/Ps</h4>
+                            <p class="text-muted" style="display: block;">Intermediate Skill</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 portfolio-item"> 
+
+
+
+
+
+                    <div class="col-md-4 col-sm-6 portfolio-item"> 
+                        <a href="#portfolioModalPOSTER" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> 
+                                    <i class="fa fa-plus fa-3x"></i> 
+                                </div>
+                            </div>
+                            <img src="./img/poster-thumb.jpg" class="img-responsive" alt="Poster Design thumbnail">                             
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4 style="display: block;">Lindsay Eythe</h4>
+                            <p class="text-muted">Poster Design</p>
+                        </div>
+                    </div>
+
+
+
+
+-->
