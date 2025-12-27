@@ -2,39 +2,26 @@
 // ---------------------------------------------------------------
 // /resume/index.php
 // Landing + access control for resumes & portfolio
-// Reuses /legal/harassment-case/config.php + global /logout.php
+// Uses shared site auth (auth.php)
 // ---------------------------------------------------------------
 declare(strict_types=1);
 
-session_start();
-
-$configPath = __DIR__ . '/../legal/harassment-case/config.php';
-if (!is_file($configPath)) {
-    header('Content-Type: text/plain; charset=UTF-8');
-    echo "ERROR: Config file not found at:\n  {$configPath}\n";
-    exit;
-}
-require $configPath;
+require_once __DIR__ . '/../auth.php';
 
 $error = '';
 
 // Check login status
-$loggedIn = !empty($_SESSION['hc_logged_in']) && $_SESSION['hc_logged_in'] === true;
+$loggedIn = is_logged_in();
 
 // Handle login POST
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $u = trim($_POST['username'] ?? '');
-    $p = $_POST['password'] ?? '';
+    $u = trim((string)($_POST['username'] ?? ''));
+    $p = (string)($_POST['password'] ?? '');
 
-    if ($u === HC_USERNAME && password_verify($p, HC_PASSWORD_HASH)) {
-        $_SESSION['hc_failed_attempts'] = 0;
-        session_regenerate_id(true);
-        $_SESSION['hc_logged_in'] = true;
-
-        header('Location: /resume/');
-        exit;
+    if ($u !== '' && $p !== '' && auth_check_credentials($u, $p)) {
+        login_user($u);
+        redirect('/resume/');
     } else {
-        $_SESSION['hc_failed_attempts'] = ($_SESSION['hc_failed_attempts'] ?? 0) + 1;
         $error = 'Invalid username or password.';
         $loggedIn = false;
     }
@@ -170,7 +157,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <p>
         You may still view a static public snapshot here:
         <br>
-        <a href="/resume/public-index.html">Open public resume overview</a>
+        <a href="<?php echo htmlspecialchars(site_url('/resume/public-index.html'), ENT_QUOTES); ?>">Open public resume overview</a>
       </p>
     </div>
 
@@ -180,18 +167,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <p>You are logged in. The following sections are available:</p>
 
         <ul>
-          <li><a href="/resume/digital-analytics/">Digital Analytics Resume</a></li>
-          <li><a href="/resume/web-developer/">Web Developer Resume</a></li>
-          <li><a href="/resume/evidence-tech/">Evidence Technician Resume</a></li>
-          <li><a href="/resume/shelter-lab/">Shelter Lab Tech Resume</a></li>
-          <li><a href="/portfolio/">Full Portfolio</a></li>
-          <li><a href="/legal/">Legal Workspace</a></li>
+          <li><a href="<?php echo htmlspecialchars(site_url('/resume/digital-analytics/'), ENT_QUOTES); ?>">Digital Analytics Resume</a></li>
+          <li><a href="<?php echo htmlspecialchars(site_url('/resume/web-developer/'), ENT_QUOTES); ?>">Web Developer Resume</a></li>
+          <li><a href="<?php echo htmlspecialchars(site_url('/resume/Michael_Widener_Resume_Evidence_Technician.pdf'), ENT_QUOTES); ?>">Evidence Technician Resume (PDF)</a></li>
+          <li><a href="<?php echo htmlspecialchars(site_url('/resume/Shelter-Computer-Lab-Tech.html'), ENT_QUOTES); ?>">Shelter Lab Tech Resume (HTML)</a></li>
+          <li><a href="<?php echo htmlspecialchars(site_url('/portfolio/'), ENT_QUOTES); ?>">Full Portfolio</a></li>
+          <li><a href="<?php echo htmlspecialchars(site_url('/legal/'), ENT_QUOTES); ?>">Legal Workspace</a></li>
         </ul>
 
         <p class="meta">
           To end this session for the whole site, use:
           <br>
-          <a href="/logout.php">Logout</a>
+          <a href="<?php echo htmlspecialchars(site_url('/logout/?next=/resume/'), ENT_QUOTES); ?>">Logout</a>
         </p>
 
       <?php else: ?>

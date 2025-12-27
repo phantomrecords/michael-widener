@@ -11,20 +11,20 @@ if (!is_string($next) || $next === '' || $next[0] !== '/') {
 }
 
 $auth_href = $logged_in
-    ? '/logout/?next=' . rawurlencode($next)
-    : '/login/?next=' . rawurlencode($next);
+    ? site_url('/logout/?next=' . rawurlencode($next))
+    : site_url('/login/?next=' . rawurlencode($next));
 
 $auth_text = $logged_in ? 'Logout' : 'Login';
 ?>
 
 <p class="subtitle">
-  <a target="_parent" href="/">&uarr;</a> |
-  <a href="<?php echo htmlspecialchars(nav_back_href('/'), ENT_QUOTES); ?>">←</a> |
-  <a class="nav-home" href="/" aria-label="Home" title="Home">
+  <a target="_parent" href="<?php echo htmlspecialchars(site_url('/'), ENT_QUOTES); ?>">&uarr;</a> |
+  <a href="<?php echo htmlspecialchars(site_url(nav_back_href('/')), ENT_QUOTES); ?>">←</a> |
+  <a class="nav-home" href="<?php echo htmlspecialchars(site_url('/'), ENT_QUOTES); ?>" aria-label="Home" title="Home">
   <i class="fa fa-home" aria-hidden="true"></i></a> <!-- <a href="/">Home</a> --> | |
-  <a href="<?php echo htmlspecialchars(nav_forward_href('/'), ENT_QUOTES); ?>">→</a> |
-  <a href="/help/">?</a> |
-  <a href="/account/">╭ ACCOUNT ╮</a> |
+  <a href="<?php echo htmlspecialchars(site_url(nav_forward_href('/')), ENT_QUOTES); ?>">→</a> |
+  <a href="<?php echo htmlspecialchars(site_url('/help/'), ENT_QUOTES); ?>">?</a> |
+  <a href="<?php echo htmlspecialchars(site_url('/account/'), ENT_QUOTES); ?>">╭ ACCOUNT ╮</a> |
   <a href="<?php echo htmlspecialchars($auth_href, ENT_QUOTES); ?>">
     <?php echo htmlspecialchars($auth_text, ENT_QUOTES); ?>
   </a>

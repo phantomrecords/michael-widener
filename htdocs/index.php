@@ -26,20 +26,8 @@ if (!$logged_in && ($_SERVER['REQUEST_METHOD'] ?? '') === 'POST') {
         $error = 'Account ID and password are required.';
     } else {
         if (auth_check_credentials($account_id, $password)) {
-
-login_user($account_id);
-redirect(get_next_path('/'));
-
-
-/* BEGIN login_user change */
-            login_user($account_id);                 // <-- Updated this login_user function
-            redirect(get_next_path('/')); // This redirect was already correct. I made no change except this comment text
-/* END login_user change */
-
-/* BEGIN-PREVIOUS login_user change */
-/*            login_user();                 // <-- do NOT redirect inside login_user() */
-/*            redirect(get_next_path('/')); // return to requested page (or /) */
-/* END-PREVIOUS login_user change */
+            login_user($account_id);
+            redirect(get_next_path('/'));
 
         } else {
             $error = 'Invalid login credentials.';
@@ -413,14 +401,14 @@ html {
       } else {
           $next = $_SERVER['REQUEST_URI'] ?? '/';
           $auth_href = $logged_in
-            ? '/logout/?next=' . rawurlencode($next)
-            : '/login/?next=' . rawurlencode($next);
+            ? site_url('/logout/?next=' . rawurlencode($next))
+            : site_url('/login/?next=' . rawurlencode($next));
 
           echo '<p class="subtitle">'
-             . '<a href="/">&uarr;</a> | '
-             . '<a href="/">Home</a> | '
-             . '<a href="/help/">?</a> | '
-             . '<a href="/account/">╭ ACCOUNT ╮</a> | '
+             . '<a href="' . h(site_url('/')) . '">&uarr;</a> | '
+             . '<a href="' . h(site_url('/')) . '">Home</a> | '
+             . '<a href="' . h(site_url('/help/')) . '">?</a> | '
+             . '<a href="' . h(site_url('/account/')) . '">╭ ACCOUNT ╮</a> | '
              . '<a href="' . h($auth_href) . '">' . ($logged_in ? 'Logout' : 'Login') . '</a>'
              . '</p>';
       }
@@ -461,8 +449,8 @@ html {
 
           <div class="btnrow">
             <button type="submit">Login</button>
-            <a class="btn" href="/iforgot/">I forgot my password</a>
-            <a class="btn" href="/account-create/">Create account</a>
+            <a class="btn" href="<?php echo h(site_url('/forgot/')); ?>">I forgot my password</a>
+            <a class="btn" href="<?php echo h(site_url('/account-create/')); ?>">Create account</a>
           </div>
         </form>
       <?php endif; ?>
@@ -479,62 +467,7 @@ html {
         <?php foreach ($products as $p): ?>
           <a class="card" href="<?php echo h((string)$p['href']); ?>" target="_self" rel="noopener">
 
-<div class="thumb">
-  <?php if ($p['title'] === 'Most Popular'): ?>
-    <img
-      src="/images/products/Story-Titans-Store-Category-Sketch-Most-Popular-Items-1024x1024.png"
-      alt="Most popular items – lifestyle sketch of shopper selecting sports and outdoor gear"
-      loading="lazy"
-    />
-
-  <?php elseif ($p['title'] === 'Digital Downloads'): ?>
-    <img
-      src="/images/products/Story-Titans-Store-Category-Sketch-Digital-Downloads-Category-1024x1024.png"
-      alt="Digital downloads category."
-      loading="lazy"
-    />
-
-  <?php elseif ($p['title'] === 'Game Mat-shaped Downloadable Graphic'): ?>
-    <img
-      src="/images/products/stormy-titans-gamemat-lifestyle-sketch-square.png"
-      alt="Stormy Titans card game mat in use."
-      loading="lazy"
-    />
-
-  <?php elseif ($p['title'] === 'MousePad-shaped Downloadable Graphic'): ?>
-    <img
-      src="/images/products/sketch-of-stormy-titans-mousepad-lifestyle-image-square-1024x1024.png"
-      alt="Stormy Titans see-through wrist rest with clear padding."
-      loading="lazy"
-    />
-
-  <?php elseif ($p['title'] === 'MousePad-shaped Downloadable Graphic'): ?>
-    <img
-      src="/images/products/sketch-of-stormy-titans-mousepad-lifestyle-image-square-1024x1024.png"
-      alt="Stormy Titans see-through wrist rest with clear padding."
-      loading="lazy"
-    />
-
-  <?php elseif ($p['title'] === 'Original, Solid-wood Mousepad'): ?>
-    <img
-      src="/images/products/Mouse-Pad-Solid-Wood-Lifestyle-Image-Sketch-1024x1024.png"
-      alt="Stormy Titans Soid-wood Rectangular Mouse Pad."
-      loading="lazy"
-    />
-
-  <?php elseif ($p['title'] === 'Original, Solid-wood Drink Coasters'): ?>
-    <img
-      src="/images/products/Drink-Coast-Set-of-Four-Solid-Wood-1024x1024.png"
-      alt="Stormy Titans Soid-wood Rectangular Mouse Pad."
-      loading="lazy"
-    />
-
-
-
-  <?php else: ?>
-    DJX.Vegas
-  <?php endif; ?>
-</div>
+            <div class="thumb"><?php echo h((string)$p['title']); ?></div>
 
 
             <h3><?php echo h((string)$p['title']); ?></h3>
@@ -573,7 +506,7 @@ html {
 
     <div class="product-grid">
       <?php foreach ($wp_modules as $m): ?>
-        <a class="card" href="<?php echo h((string)$m['href']); ?>" target="_self" rel="noopener">
+        <a class="card" href="<?php echo h(site_url((string)$m['href'])); ?>" target="_self" rel="noopener">
           <div class="thumb"><?php echo h((string)($m['thumb'] ?? 'WP')); ?></div>
           <h3><?php echo h((string)$m['title']); ?></h3>
           <p class="price"><?php echo h((string)$m['price']); ?></p>
@@ -593,7 +526,7 @@ html {
     </p>
 
     <div class="product-grid">
-      <a class="card" href="/complaints/" rel="noopener">
+      <a class="card" href="<?php echo h(site_url('/complaints/')); ?>" rel="noopener">
         <div class="thumb">PRIVATE</div>
         <h3>Complaints Dashboard</h3>
         <p class="price">Banks • Agencies • Case packets</p>
@@ -608,7 +541,7 @@ html {
     </p>
 
     <div class="product-grid">
-      <a class="card" href="/bullies/" rel="noopener">
+      <a class="card" href="<?php echo h(site_url('/bullies/')); ?>" rel="noopener">
         <div class="thumb">PRIVATE</div>
         <h3>Bullies Index</h3>
         <p class="price">Names • incidents • boundaries</p>
