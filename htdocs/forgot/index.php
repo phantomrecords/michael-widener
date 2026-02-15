@@ -30,13 +30,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $reset_key = isset($_POST['reset_key']) ? trim((string)$_POST['reset_key']) : '';
     $pass1     = isset($_POST['password1']) ? (string)$_POST['password1'] : '';
     $pass2     = isset($_POST['password2']) ? (string)$_POST['password2'] : '';
+    $reset_secret = getenv('HC_RESET_KEY');
+    if (!is_string($reset_secret) || $reset_secret === '') {
+        $reset_secret = defined('HC_RESET_KEY') ? (string)HC_RESET_KEY : '';
+    }
 
     // Validate basic inputs
     if ($reset_key === '' || $pass1 === '' || $pass2 === '') {
         $error = 'All fields are required.';
-    } elseif (!defined('HC_RESET_KEY') || (string)HC_RESET_KEY === '') {
-        $error = 'Reset is not configured yet. Missing HC_RESET_KEY in /auth.php.';
-    } elseif (!hash_equals((string)HC_RESET_KEY, $reset_key)) {
+    } elseif ($reset_secret === '') {
+        $error = 'Reset is not configured yet. Missing HC_RESET_KEY (set env var HC_RESET_KEY or define it in /auth.php).';
+    } elseif (!hash_equals($reset_secret, $reset_key)) {
         // Don’t reveal which part failed
         $error = 'Invalid reset key.';
     } elseif ($pass1 !== $pass2) {
@@ -150,7 +154,7 @@ define('HC_LOGIN_PASSWORD_HASH', '<?php echo htmlspecialchars($new_hash, ENT_QUO
 
       <p>
         After updating <code>/auth.php</code>, go back to
-        <a href="/login/">Login</a>.
+        <a href="<?php echo htmlspecialchars(site_url('/login/'), ENT_QUOTES); ?>">Login</a>.
       </p>
       <hr class="rule" />
     <?php endif; ?>
@@ -177,7 +181,7 @@ define('HC_LOGIN_PASSWORD_HASH', '<?php echo htmlspecialchars($new_hash, ENT_QUO
     </form>
 
     <p style="margin-top: 1rem;">
-      <a href="/login/">← Back to Login</a>
+      <a href="<?php echo htmlspecialchars(site_url('/login/'), ENT_QUOTES); ?>">← Back to Login</a>
     </p>
   </div>
 </body>

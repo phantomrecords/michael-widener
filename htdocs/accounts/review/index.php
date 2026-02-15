@@ -209,8 +209,8 @@ Count: <?php echo (string)count($items); ?>
     <?php endif; ?>
 
     <p>
-      <a href="/account/">Return to Account</a> |
-      <a href="/">Home</a>
+      <a href="<?php echo h(site_url('/account/')); ?>">Return to Account</a> |
+      <a href="<?php echo h(site_url('/')); ?>">Home</a>
     </p>
 
     <footer>

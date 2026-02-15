@@ -350,8 +350,8 @@ If submit fails, we’ll show the exact exception here.
           </p>
           <p><strong>Reference:</strong> <?php echo h($ref); ?></p>
           <div class="btnrow">
-            <a class="btn" href="/">Return to Home</a>
-            <a class="btn" href="/iforgot/">Password Recovery</a>
+            <a class="btn" href="<?php echo h(site_url('/')); ?>">Return to Home</a>
+            <a class="btn" href="<?php echo h(site_url('/forgot/')); ?>">Password Recovery</a>
           </div>
         </div>
       <?php else: ?>
@@ -360,7 +360,7 @@ If submit fails, we’ll show the exact exception here.
           This request is delivered for finalization before an account becomes active.
         </div>
 
-        <form class="box" method="post" action="/account-create/<?php echo $diag ? '?diag=1' : ''; ?>">
+        <form class="box" method="post" action="<?php echo h(site_url('/account-create/')) . ($diag ? '?diag=1' : ''); ?>">
           <input type="hidden" name="csrf" value="<?php echo $csrf; ?>" />
 
           <label>
@@ -392,8 +392,8 @@ If submit fails, we’ll show the exact exception here.
 
           <div class="btnrow">
             <button type="submit">Send request</button>
-            <a class="btn" href="/iforgot/">I forgot my password</a>
-            <a class="btn" href="/">Cancel</a>
+            <a class="btn" href="<?php echo h(site_url('/forgot/')); ?>">I forgot my password</a>
+            <a class="btn" href="<?php echo h(site_url('/')); ?>">Cancel</a>
           </div>
         </form>
 
