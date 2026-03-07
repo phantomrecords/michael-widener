@@ -1,6 +1,6 @@
 # michael-widener.com – Graphic Design & Multimedia Portfolio
 
-This is the GitHub Pages repository for [michaelwidener.com](https://michaelwidener.com), the professional, private science hub of **Michael Widener, II**.
+This is the GitHub Pages repository for [michaelwidener.com](https://michaelwidener.com), the professional, private science hub of **Michael Widener II**.
 
 This site showcases original graphic design, CSS animation, interface prototyping, and multimedia artwork. It is intended as both a live showcase and a timestamped record of authorship and creative ownership.
 
