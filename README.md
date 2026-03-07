@@ -9,4 +9,4 @@ See `LICENSE.md` for full copyright terms.
 
 ---
 
-Contact: Michael Widener II – michael.widener@michaelwidener.com – 9841 Washingtonian Blvd, Suite 220 PMB 16, Gaithersburg, Maryland 20878 United States of America – +1 (510) 859-7725 (His only published phone number).
+Contact: Michael Widener II – michael.widener@michaelwidener.com – 9841 Washingtonian Blvd, Suite 220 PMB 16, Gaithersburg, Maryland 20878 United States of America – +1 (510) 859-7725 (His only self-published phone number).
