@@ -123,7 +123,7 @@ html {
   <div class="page">
 
     <header class="block">
-      <h1><a href="/" style="text-decoration:none;color:inherit;">Michael Widener II</a></h1>
+      <h1><a href="<?php echo htmlspecialchars(site_url('/'), ENT_QUOTES); ?>" style="text-decoration:none;color:inherit;">Michael Widener II</a></h1>
 
       <!-- NAV-START -->
       <?php include __DIR__ . '/../nav/nav.php'; ?>

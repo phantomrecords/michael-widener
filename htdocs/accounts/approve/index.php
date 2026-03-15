@@ -203,8 +203,8 @@ html {
       </label>
       <div class="row" style="margin-top:1rem;">
         <button type="submit">Approve request</button>
-        <a class="btn" href="/account/">View Account</a>
-        <a class="btn" href="/account/approve/<?php echo $diag ? '?diag=1' : ''; ?>">Refresh</a>
+        <a class="btn" href="<?php echo h(site_url('/account/')); ?>">View Account</a>
+        <a class="btn" href="<?php echo h(site_url('/account/approve/')) . ($diag ? '?diag=1' : ''); ?>">Refresh</a>
       </div>
     </form>
 
@@ -216,7 +216,7 @@ html {
         <?php foreach ($pending as $t): ?>
           <li>
             <code><?php echo h($t); ?></code>
-            — <a href="/account/approve/?token=<?php echo h($t); ?><?php echo $diag ? '&diag=1' : ''; ?>">load</a>
+            — <a href="<?php echo h(site_url('/account/approve/?token=' . rawurlencode($t) . ($diag ? '&diag=1' : ''))); ?>">load</a>
           </li>
         <?php endforeach; ?>
       </ul>

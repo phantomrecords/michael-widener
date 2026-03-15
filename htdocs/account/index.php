@@ -218,14 +218,14 @@ echo '</pre>';
   <span>Account:</span>
 
   <span class="accttabs">
-    <a class="tab active" href="/account/">Information</a> <span class="tabsep">|</span> 
-    <a class="tab" href="/account/details/">Details</a> <span class="tabsep">|</span> 
-    <a class="tab" href="/account/edit/">Edit</a> <span class="tabsep">|</span> 
-    <a class="tab" href="/account/manage/">Manage</a>
+    <a class="tab active" href="<?php echo h(site_url('/account/')); ?>">Information</a> <span class="tabsep">|</span> 
+    <a class="tab" href="<?php echo h(site_url('/account/details/')); ?>">Details</a> <span class="tabsep">|</span> 
+    <a class="tab" href="<?php echo h(site_url('/account/edit/')); ?>">Edit</a> <span class="tabsep">|</span> 
+    <a class="tab" href="<?php echo h(site_url('/account/manage/')); ?>">Manage</a>
 
     <?php if ($super): ?>
       <span class="tabsep">|</span>
-      <a class="tab" href="/accounts/review/">Review</a>
+      <a class="tab" href="<?php echo h(site_url('/accounts/review/')); ?>">Review</a>
     <?php endif; ?>
   </span>
 </h2>
@@ -249,8 +249,8 @@ echo '</pre>';
       </div>
 
       <div class="btnrow">
-        <a class="btn" href="/account/edit/">Edit (verification required)</a>
-        <a class="btn" href="/">Home</a>
+        <a class="btn" href="<?php echo h(site_url('/account/edit/')); ?>">Edit (verification required)</a>
+        <a class="btn" href="<?php echo h(site_url('/')); ?>">Home</a>
       </div>
 
     <?php endif; ?>
